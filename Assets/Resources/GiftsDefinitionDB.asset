@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5252edbf22bc24eae1b1ae1ac17d3701, type: 3}
+  m_Name: "GiftsDefinitionDB"
+  m_EditorClassIdentifier: 
+  gifts:
+  - stagesPassedToGive: 10
+    gifts:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 1
+  - stagesPassedToGive: 5
+    gifts:
+      gifts:
+      - giftType: 1
+        powerupType: 0
+        boosterType: 2
+        amount: 2
+        hours: 0
+  - stagesPassedToGive: 10
+    gifts:
+      gifts:
+      - giftType: 2
+        powerupType: 0
+        boosterType: 1
+        amount: 2
+        hours: 0
+      - giftType: 1
+        powerupType: 0
+        boosterType: 1
+        amount: 1
+        hours: 0
+  - stagesPassedToGive: 5
+    gifts:
+      gifts:
+      - giftType: 2
+        powerupType: 0
+        boosterType: 2
+        amount: 2
+        hours: 0
+      - giftType: 1
+        powerupType: 0
+        boosterType: 1
+        amount: 1
+        hours: 0
+  - stagesPassedToGive: 10
+    gifts:
+      gifts:
+      - giftType: 1
+        powerupType: 1
+        boosterType: 2
+        amount: 2
+        hours: 0
+  - stagesPassedToGive: 10
+    gifts:
+      gifts:
+      - giftType: 1
+        powerupType: 1
+        boosterType: 2
+        amount: 1
+        hours: 0
+  - stagesPassedToGive: 10
+    gifts:
+      gifts:
+      - giftType: 1
+        powerupType: 1
+        boosterType: 2
+        amount: 1
+        hours: 0
+      - giftType: 1
+        powerupType: 0
+        boosterType: 2
+        amount: 2
+        hours: 0
+  - stagesPassedToGive: 10
+    gifts:
+      gifts:
+      - giftType: 3
+        powerupType: 1
+        boosterType: 2
+        amount: 0
+        hours: 1
+      - giftType: 1
+        powerupType: 1
+        boosterType: 2
+        amount: 1
+        hours: 0
+  - stagesPassedToGive: 10
+    gifts:
+      gifts:
+      - giftType: 2
+        powerupType: 1
+        boosterType: 2
+        amount: 1
+        hours: 0
+      - giftType: 1
+        powerupType: 0
+        boosterType: 2
+        amount: 1
+        hours: 0
+  - stagesPassedToGive: 10
+    gifts:
+      gifts:
+      - giftType: 2
+        powerupType: 1
+        boosterType: 0
+        amount: 1
+        hours: 0
+  - stagesPassedToGive: 15
+    gifts:
+      gifts:
+      - giftType: 1
+        powerupType: 0
+        boosterType: 2
+        amount: 1
+        hours: 0
+      - giftType: 2
+        powerupType: 1
+        boosterType: 2
+        amount: 1
+        hours: 0
+  - stagesPassedToGive: 15
+    gifts:
+      gifts:
+      - giftType: 1
+        powerupType: 1
+        boosterType: 2
+        amount: 1
+        hours: 0
+  - stagesPassedToGive: 15
+    gifts:
+      gifts:
+      - giftType: 2
+        powerupType: 0
+        boosterType: 2
+        amount: 2
+        hours: 0
+  - stagesPassedToGive: 15
+    gifts:
+      gifts:
+      - giftType: 1
+        powerupType: 1
+        boosterType: 2
+        amount: 1
+        hours: 0
+  dailyGifts:
+    hoursTillDailyCoinsAvailable: 18
+    gifts:
+    - gifts:
+        gifts:
+        - giftType: 1
+          powerupType: 0
+          boosterType: 0
+          amount: 1
+          hours: 0
+    - gifts:
+        gifts:
+        - giftType: 1
+          powerupType: 0
+          boosterType: 0
+          amount: 1
+          hours: 0
+    - gifts:
+        gifts:
+        - giftType: 1
+          powerupType: 0
+          boosterType: 0
+          amount: 1
+          hours: 0
+    - gifts:
+        gifts:
+        - giftType: 1
+          powerupType: 0
+          boosterType: 0
+          amount: 1
+          hours: 0
+    - gifts:
+        gifts:
+        - giftType: 1
+          powerupType: 0
+          boosterType: 0
+          amount: 1
+          hours: 0
+    - gifts:
+        gifts:
+        - giftType: 1
+          powerupType: 0
+          boosterType: 0
+          amount: 1
+          hours: 0
+    - gifts:
+        gifts:
+        - giftType: 1
+          powerupType: 0
+          boosterType: 0
+          amount: 1
+          hours: 0
+  buildupBooster:
+    isEnabled: 0
+    minStageBeforeEnabled: 9
+    boosters:
+    - totalGamesWonInARow: 1
+      boosterConfig:
+      - boosterType: 3
+    - totalGamesWonInARow: 2
+      boosterConfig:
+      - boosterType: 3
+      - boosterType: 3
+    - totalGamesWonInARow: 3
+      boosterConfig:
+      - boosterType: 3
+      - boosterType: 3
+      - boosterType: 3

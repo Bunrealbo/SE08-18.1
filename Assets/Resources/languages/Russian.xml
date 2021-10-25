@@ -1,0 +1,242 @@
+<language>
+  <phrase key="back" text="НАЗАД" />
+  <phrase key="best-score" text="ЛУЧШИЙ СЧЕТ" />
+  <phrase key="booster/item/extramoves/1message" text="Добавляю ходы!" />
+  <phrase key="booster/item/extramoves/description" text="5 дополнительныйх ходов" />
+  <phrase key="booster/item/extramoves/title" text="Больше Ходов" />
+  <phrase key="booster/item/firework/1message" text="Выбери цвет, от которого нужно избавиться" />
+  <phrase key="booster/item/firework/description" text="" />
+  <phrase key="booster/item/firework/title" text="" />
+  <phrase key="booster/item/glove/1message" text="Выбери фишку, чтобы разрушить ее" />
+  <phrase key="booster/item/glove/description" text="" />
+  <phrase key="booster/item/glove/title" text="" />
+  <phrase key="booster/item/paint/1message" text="Разливаю краску!" />
+  <phrase key="booster/item/paint/description" text="Красит фишки в один цвет" />
+  <phrase key="booster/item/paint/title" text="Краска" />
+  <phrase key="booster/item/pearl/1message" text="Добавляю жемчуг!" />
+  <phrase key="booster/item/pearl/description" text="Больше жемчуга на уровне" />
+  <phrase key="booster/item/pearl/title" text="Жемчуг" />
+  <phrase key="booster/item/surprise/1message" text="" />
+  <phrase key="booster/item/surprise/description" text="Внутри лежит бустер, но никто не знает какой" />
+  <phrase key="booster/item/surprise/title" text="Сюрприз" />
+  <phrase key="booster/item/tornado/1message" text="Нажми на фишку, чтобы перемешать их все" />
+  <phrase key="booster/item/tornado/description" text="" />
+  <phrase key="booster/item/tornado/mixing" text="Перемешиваем!" />
+  <phrase key="booster/item/tornado/title" text="" />
+  <phrase key="booster/skip" text="ПРОПУСТИТЬ" />
+  <phrase key="booster/title" text="Выбери бустер" />
+  <phrase key="buy-now" text="КУПИТЬ СЕЙЧАС" />
+  <phrase key="cancel" text="Отмена" />
+  <phrase key="conflict/description" text="Какой профиль вы будите использовать? &lt;color=#FF7777FF&gt;Другой - будет удален!&lt;/color&gt;&#xA;&#xA;{0}&#xA;&#xA;{1}" />
+  <phrase key="conflict/offline" text="Устройство" />
+  <phrase key="conflict/online" text="Облако" />
+  <phrase key="conflict/title" text="Конфликт Профилей" />
+  <phrase key="continue" text="ПРОДОЛЖИТЬ" />
+  <phrase key="dialogue/tutorial1/speech1" text="Ой, кто же разбросал эти фрукты?" />
+  <phrase key="dialogue/tutorial1/speech2" text="Наверное, это был Руфус. У него очень виноватый вид" />
+  <phrase key="dialogue/tutorial1/speech3" text="Привет, друг! Меня зовут Агния. Помоги мне собрать эти фрукты" />
+  <phrase key="dialogue/tutorial1/speech4" text="Составь 3 фрукта одного цвета в ряд, тогда они исчезнут!" />
+  <phrase key="dialogue/tutorial1/speech5" text="Ты молодец! Продолжай в том же духе!" />
+  <phrase key="dialogue/tutorial1/speech6" text="Собери фрукты всех цветов. Тогда бабушка ничего не узнает!" />
+  <phrase key="dialogue/tutorial2/speech1" text="Дедушка рассказал мне, как сделать фруктовую бомбу!" />
+  <phrase key="dialogue/tutorial2/speech2" text="Нужно составить 4 фрукта в один ряд!" />
+  <phrase key="dialogue/tutorial2/speech3" text="У тебя получилось! Теперь давай попробуем ее взорвать!" />
+  <phrase key="dialogue/tutorial2/speech4" text="Ох! Надеюсь бабушка об этом не узнает!" />
+  <phrase key="dialogue/tutorial3/speech1" text="Лучший способ собрать все фрукты одного цвета, это взорвать светящуюся бомбу" />
+  <phrase key="dialogue/tutorial3/speech2" text="Давай попробуем ее создать. Составь ряд из 5 фруктов!" />
+  <phrase key="dialogue/tutorial3/speech3" text="Отлично! Теперь давай взорвем ее!" />
+  <phrase key="dialogue/tutorial3/speech4" text="Ты уже почти у цели!" />
+  <phrase key="dialogue/tutorial4/speech1" text="Оказывается, бомбы можно смешивать. Тогда их эффект усиливается" />
+  <phrase key="dialogue/tutorial4/speech2" text="Попробуй смешать две эти бомбы!" />
+  <phrase key="dialogue/tutorial4/speech3" text="Ого!" />
+  <phrase key="dialogue/tutorial4/speech4" text="А тепеь вот эти две..." />
+  <phrase key="dialogue/tutorial4/speech5" text="Не упускай шанса смешать пару бомб!" />
+  <phrase key="dialogue/tutorial5/speech1" text="Посмотри-ка! Некоторые ячейки покрыты стеклом!" />
+  <phrase key="dialogue/tutorial5/speech2" text="Я боюсь, что ты не сможешь завершить этот уровень, пока не очистишь все ячейки..." />
+  <phrase key="dialogue/tutorial5/speech3" text="Круши фрукты над стеклом, тогда оно треснет!" />
+  <phrase key="dialogue/tutorial5/speech4" text="Отлично! Продолжай так делать пока не очистишь уровень от всех стекляшек!" />
+  <phrase key="facebook/login" text="ВОЙТИ" />
+  <phrase key="facebook/logout" text="ВЫЙТИ" />
+  <phrase key="facebook/title" text="Facebook" />
+  <phrase key="full-of-lifes" text="ПОЛОН ЖИЗНИ" />
+  <phrase key="id/coin" text="Самоцвет" />
+  <phrase key="id/extramoves" text="Дополнительные Ходы" />
+  <phrase key="id/firework" text="Фейерверк" />
+  <phrase key="id/glove" text="Варежка" />
+  <phrase key="id/life" text="Жизнь" />
+  <phrase key="id/lifeslot" text="Слот для Жизни" />
+  <phrase key="id/paint" text="Краска" />
+  <phrase key="id/pearl" text="Жемчужина" />
+  <phrase key="id/spin" text="" />
+  <phrase key="id/surprise" text="Сюрприз" />
+  <phrase key="id/tornado" text="Торнадо" />
+  <phrase key="item/coins1/description" text="" />
+  <phrase key="item/coins1/name" text="30 Самоцветов" />
+  <phrase key="item/coins2/description" text="" />
+  <phrase key="item/coins2/name" text="100 Самоцветов" />
+  <phrase key="item/coins3/description" text="" />
+  <phrase key="item/coins3/name" text="300 Самоцветов" />
+  <phrase key="item/coins4/description" text="+ 30 Сюрпризов в подарок!" />
+  <phrase key="item/coins4/name" text="1000 Самоцветов" />
+  <phrase key="item/coins-group/description" text="Их можно поменять на что угодно" />
+  <phrase key="item/coins-group/name" text="Самоцветы" />
+  <phrase key="item/extramoves1/description" text="" />
+  <phrase key="item/extramoves1/name" text="7 Бустеров" />
+  <phrase key="item/extramoves2/description" text="25% Cкидка" />
+  <phrase key="item/extramoves2/name" text="22 Бустера" />
+  <phrase key="item/extramoves3/description" text="50% Cкидка" />
+  <phrase key="item/extramoves3/name" text="55 Бусторов" />
+  <phrase key="item/extramoves-group/description" text="На пять ходов больше" />
+  <phrase key="item/extramoves-group/name" text="Дополнительные Ходы" />
+  <phrase key="item/firework/description" text="" />
+  <phrase key="item/firework/name" text="10 Фейерверков" />
+  <phrase key="item/firework1/description" text="" />
+  <phrase key="item/firework1/name" text="10 Фейерверков" />
+  <phrase key="item/firework2/description" text="25% Cкидка" />
+  <phrase key="item/firework2/name" text="33 Фейерверков" />
+  <phrase key="item/firework3/description" text="50% Cкидка" />
+  <phrase key="item/firework3/name" text="80 Фейерверков" />
+  <phrase key="item/firework-group/description" text="Фейерверк бъет по фишкам цвета, который ты выберешь" />
+  <phrase key="item/firework-group/name" text="Фейерверки" />
+  <phrase key="item/free-group/description" text="Никакого бесплатного сыра в мышеловке!" />
+  <phrase key="item/free-group/name" text="Бесплатно" />
+  <phrase key="item/glove1/description" text="" />
+  <phrase key="item/glove1/name" text="7 Варежек" />
+  <phrase key="item/glove2/description" text="25% Cкидка" />
+  <phrase key="item/glove2/name" text="30 Варежек" />
+  <phrase key="item/glove3/description" text="50% Cкидка" />
+  <phrase key="item/glove3/name" text="100 Варежек" />
+  <phrase key="item/glove-group/description" text="Позволяет избавиться от одной фишки" />
+  <phrase key="item/glove-group/name" text="Варежки" />
+  <phrase key="item/infinitylife1/description" text="Ты перестанешь терять жизни в течении часа" />
+  <phrase key="item/infinitylife1/name" text="Час Бессмертия" />
+  <phrase key="item/infinitylife24/description" text="Все твои жизни будут сохранены в течении 24 часов" />
+  <phrase key="item/infinitylife24/name" text="День Бессмертия" />
+  <phrase key="item/life6/description" text="Ты сможешь накапливать 6 жизней вместо 5" />
+  <phrase key="item/life6/name" text="Шестая жизнь" />
+  <phrase key="item/life7/description" text="Еще одно дополнительное место для жизни" />
+  <phrase key="item/life7/name" text="Седьмая жизнь" />
+  <phrase key="item/life8/description" text="Ты сможешь накапливать целых 8 жизней" />
+  <phrase key="item/life8/name" text="Восьмая жизнь" />
+  <phrase key="item/life-group/description" text="Жизни нужны чтобы играть" />
+  <phrase key="item/life-group/name" text="Жизни" />
+  <phrase key="item/paint1/description" text="" />
+  <phrase key="item/paint1/name" text="8 Красок" />
+  <phrase key="item/paint2/description" text="25% Cкидка" />
+  <phrase key="item/paint2/name" text="30 Красок" />
+  <phrase key="item/paint3/description" text="50% Cкидка" />
+  <phrase key="item/paint3/name" text="65 Красок" />
+  <phrase key="item/paint-group/description" text="Красит фишки в один цвет" />
+  <phrase key="item/paint-group/name" text="Краска" />
+  <phrase key="item/pearls1/description" text="" />
+  <phrase key="item/pearls1/name" text="10 Жемчужин" />
+  <phrase key="item/pearls2/description" text="25% Cкидка" />
+  <phrase key="item/pearls2/name" text="33 Жемчужины" />
+  <phrase key="item/pearls3/description" text="50% Cкидка" />
+  <phrase key="item/pearls3/name" text="65 Жемчужин" />
+  <phrase key="item/pearls-group/description" text="Разнообразь уровень жемчугом, который примут любой цвет, какой ты захочешь" />
+  <phrase key="item/pearls-group/name" text="Жемчуг" />
+  <phrase key="item/pig/description" text="Смотри клипы за награду" />
+  <phrase key="item/pig/name" text="Свинья в Мешке" />
+  <phrase key="item/refuellife/description" text="Полная шкала жизней" />
+  <phrase key="item/refuellife/name" text="Дозаправка" />
+  <phrase key="item/surpirse1/description" text="" />
+  <phrase key="item/surpirse1/name" text="8 Сюрпризов" />
+  <phrase key="item/surpirse2/description" text="25% Cкидка" />
+  <phrase key="item/surpirse2/name" text="30 Сюрпризов" />
+  <phrase key="item/surpirse3/description" text="50% Cкидка" />
+  <phrase key="item/surpirse3/name" text="65 Сюрпризов" />
+  <phrase key="item/surprise-group/description" text="Коробки со случайными бустерами" />
+  <phrase key="item/surprise-group/name" text="Сюрпризы" />
+  <phrase key="item/tornado1/description" text="" />
+  <phrase key="item/tornado1/name" text="7 Торнадо" />
+  <phrase key="item/tornado2/description" text="25% Cкидка" />
+  <phrase key="item/tornado2/name" text="30 Торнадо" />
+  <phrase key="item/tornado3/description" text="50% Cкидка" />
+  <phrase key="item/tornado3/name" text="100 Торнадо" />
+  <phrase key="item/tornado-group/description" text="Не можешь найти хороших ходов? Торнадо перемешает поле!" />
+  <phrase key="item/tornado-group/name" text="Торнадо" />
+  <phrase key="level" text="Уровень {level}" />
+  <phrase key="level-complete" text="Уровень пройден!" />
+  <phrase key="loading" text="Загрузка..." />
+  <phrase key="map" text="КАРТА" />
+  <phrase key="moves-left" text="ХОДОВ ОСТАЛОСЬ" />
+  <phrase key="new-life-in" text="НОВАЯ ЖИЗНЬ ЧЕРЕЗ {timer}" />
+  <phrase key="no-lives/description" text="Ты получишь новую жизнь через" />
+  <phrase key="no-lives/description-enough" text="У тебя достаточно жизней для игры" />
+  <phrase key="no-lives/title" text="НЕТ ЖИЗНЕЙ" />
+  <phrase key="notifications/daily-message" text="Время испытать удачу в Колесе Фортуны!" />
+  <phrase key="notifications/daily-title" text="Ежедневная награда" />
+  <phrase key="notifications/i-miss-you-message1" text="Агнес: Привет, Друг!" />
+  <phrase key="notifications/i-miss-you-message2" text="Агнес: Где ты пропал!? Мы соскучились..." />
+  <phrase key="notifications/i-miss-you-message3" text="Агнес: Помоги нам пройти этот уровень!" />
+  <phrase key="notifications/i-miss-you-title" text="Вы получили сообщение" />
+  <phrase key="notifications/lives-message" text="Потрать пару минут, чтобы сыграть ♥" />
+  <phrase key="notifications/lives-title" text="Жизни восстановлены!" />
+  <phrase key="offline/cancel" text="Отмена" />
+  <phrase key="offline/description" text="Вы не подлючили свой &lt;color=#AAAAFFFF&gt;Facebook&lt;/color&gt; профиль. Если хотите продолжить, его следует подключить." />
+  <phrase key="offline/signin" text="Подключить" />
+  <phrase key="offline/title" text="Facebook" />
+  <phrase key="other/offline" text="НЕ В СЕТИ" />
+  <phrase key="other/share" text="&lt;sprite name=&quot;IL_Share&quot;&gt;ПОДЕЛИТЬСЯ" />
+  <phrase key="pause" text="ПАУЗА" />
+  <phrase key="piginapoke/reward/back" text="Спасибо" />
+  <phrase key="piginapoke/reward/title" text="Твоя Награда!" />
+  <phrase key="quit" text="ВЫХОД" />
+  <phrase key="rateit/description" text="Если тебе понравилась эта игра, не мог бы ты уделить нам минутку и оставить отзыв в магазине приложений? Это очень важно для нас. Спасибо!" />
+  <phrase key="rateit/later" text="ПОЗЖЕ" />
+  <phrase key="rateit/no" text="НЕТ" />
+  <phrase key="rateit/title" text="Секундочку!" />
+  <phrase key="rateit/yes" text="ОЦЕНИТЬ" />
+  <phrase key="restart" text="ЗАНОВО" />
+  <phrase key="score" text="СЧЕТ" />
+  <phrase key="settings" text="НАСТРОЙКИ" />
+  <phrase key="settings/language" text="Язык" />
+  <phrase key="settings/music" text="Музыка" />
+  <phrase key="settings/sfx" text="Эффекты" />
+  <phrase key="settings/this-language" text="Русский" />
+  <phrase key="settings/title" text="НАСТРОЙКИ" />
+  <phrase key="share/link-caption" text="Я завершил {level} уровень со счетом {score}" />
+  <phrase key="share/link-description" text="Попробуй набрать больше очков!" />
+  <phrase key="share/link-name" text="Ultimate Match-Three" />
+  <phrase key="soon/description" text="Новые уровни появятся совсем скоро! Жди обновлений, а пока оставь позитивный отзыв в магазине приложений. Спасибо! :)" />
+  <phrase key="soon/leave-a-review" text="НАПИСАТЬ ОТЗЫВ" />
+  <phrase key="soon/level-button" text="Скоро!" />
+  <phrase key="soon/title" text="Скоро!" />
+  <phrase key="spin-wheel/daily/not-enough-spins" text="НЕТ СПИНОВ" />
+  <phrase key="spin-wheel/daily/push" text="ЖМИ!" />
+  <phrase key="spin-wheel/daily/title" text="Колесо Фортуны" />
+  <phrase key="spin-wheel/rewarded/button" text="СМОТРЕТЬ" />
+  <phrase key="spin-wheel/rewarded/description" text="Посмотри видео и получишь еще один спин" />
+  <phrase key="start" text="НАЧАТЬ" />
+  <phrase key="store/button" text="МАГАЗИН" />
+  <phrase key="store/title" text="Магазин" />
+  <phrase key="store/watch" text="Смотреть" />
+  <phrase key="you-lose/title" text="НЕУДАЧА" />
+  <phrase key="you-win/title" text="ПОБЕДА!" />
+  <phrase key="dialogue/tutorial6/speech1" text="Когда наступает ночь, все играют по моим правилам!" />
+  <phrase key="dialogue/tutorial6/speech2" text="Когда все становится темным, а поле - розовым..." />
+  <phrase key="dialogue/tutorial6/speech3" text="Ты больше не можешь двигать фрукты" />
+  <phrase key="dialogue/tutorial6/speech4" text="Нарисуй линию из фруктов одного цвета, тогда они исчезнут" />
+  <phrase key="dialogue/tutorial6/speech5" text="Если линия будет слишком большая, то вместе с ней исчезнут все схожие фрукты!" />
+  <phrase key="dialogue/tutorial6/speech6" text="Линии из 7 фруктов будет достаточно" />
+  <phrase key="dialogue/tutorial6/speech7" text="Из тебя получился бы отличный кот!" />
+  <phrase key="dialogue/tutorial6/speech8" text="Собери все необходимые фрукты, чтобы закончить уровень" />
+  <phrase key="dialogue/tutorial7/speech1" text="Посмотри-ка! Это же гриб!" />
+  <phrase key="dialogue/tutorial7/speech2" text="Чтобы собрать этот гриб, тебе нужно избавиться от всех фруктов под ним, чтобы он упал вниз" />
+  <phrase key="dialogue/tutorial7/speech3" text="Отлично! Собери 4 гриба, чтобы закончить этот уровень" />
+  <phrase key="dialogue/tutorial8/speech1" text="Фрукты не могут заполнить все поле! Их путь блокирует хлеб!" />
+  <phrase key="dialogue/tutorial8/speech2" text="Избавься от фруктов рядом с хлебом, тогда хлеб рассыпется" />
+  <phrase key="dialogue/tutorial8/speech3" text="Так то лучше!" />
+  <phrase key="dialogue/tutorial9/speech1" text="Зеленые поля обладают особыми правитами!" />
+  <phrase key="dialogue/tutorial9/speech2" text="Чтобы убрать фрукт, тебе нужно коснуться его. Тогда он исчезнет вместе со всеми с похожими фруктами по соседству!" />
+  <phrase key="dialogue/tutorial9/speech3" text="Давай попробуем!" />
+  <phrase key="dialogue/tutorial9/speech4" text="Если фруктов будет много, это породит бомбу! 5 фруктов достаточно для простой бомбы" />
+  <phrase key="dialogue/tutorial9/speech5" text="Отлично! Теперь коснись бомбы и она взорвется!" />
+  <phrase key="dialogue/tutorial9/speech6" text="Ты быстро учишься!" />
+  <phrase key="dialogue/tutorial10/speech1" text="Мы забрались так высоко, что некоторые фрукты замерзли!" />
+  <phrase key="dialogue/tutorial10/speech2" text="Круши лед, тогда новые фрукты не замерзнут!" />
+  <phrase key="dialogue/tutorial11/speech1" text="Еще бомбы можно смешивать, усиливая их эффект!" />
+  <phrase key="dialogue/tutorial11/speech2" text="Когда две бомбы лежат рядом, нажми на одну из них, тогда они смешаются" />
+  <phrase key="dialogue/tutorial11/speech3" text="Мне никогда не перестанет это нравится!" />
+</language>

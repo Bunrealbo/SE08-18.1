@@ -1,0 +1,2272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da6d0804aeb556481b7c5411b3773ce, type: 3}
+  m_Name: "GGMatch3.Match3SettingsFast"
+  m_EditorClassIdentifier: 
+  selectedColorSettings: 0
+  colorSettings: []
+  monsterColorSettings: []
+  chipChanges: []
+  chipDisplays: []
+  maxPotentialMatchesAtStart: 8
+  boosterPlaceDelay: 0.25
+  exitScrollSpeed: 0.5
+  generalSettings:
+    chipScaleMult: 0.87
+    pickupScaleMult: 1
+    bombScaleMult: 1
+    trapScaleMult: 0.9
+    shakeScale: 0
+    preventAutomatchesIfPossible: 0
+    strictAsPossibleToPrevent: 0
+    waitTillBoardStopsForMatches: 0
+    waitIfRocketHitsPowerup: 0
+    scoreSpeed: 40
+    lerpSpeed: 2
+    shakeSettings:
+      magnitude: 1
+      roughness: 0
+      fadeInTime: 0
+      fadeOutTime: 0
+      posInfluence: {x: 0, y: 0, z: 0}
+      rotInfluence: {x: 0, y: 0, z: 0}
+  gravitySettings:
+    gravity: 20
+    maxVelocity: 16
+    gravityRange:
+      min: 25
+      max: 20
+    minVelocityRange:
+      min: 10
+      max: 5
+    minTimeStoppedBeforeMatch: 0.2
+  pipeSettings:
+    gravity: 30
+    maxVelocity: 30
+    minVelocity: 40
+    maxContinueVelocity: 10
+    scale: 0.8
+    orthoScale: 1
+    pipeScale: 0.9
+    offsetPosition: {x: 0, y: 0, z: 0}
+    offsetCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorSettings: []
+  destroyActionSettings:
+    useChipAnimation: 0
+    fromScale: 1
+    toScale: 3.5
+    duration: 0.4
+    animationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    fromAlpha: 0.8
+    toAlpha: 0
+    holdGravityOnChip: 1
+    holdGravityDuration: 0.4
+    lightIntensity: 1
+    brightness: 1
+    useRocketDestroySettings: 0
+  destroyActionSettingsRocket:
+    useChipAnimation: 0
+    fromScale: 2
+    toScale: 1
+    duration: 0
+    animationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    fromAlpha: 1
+    toAlpha: 1
+    holdGravityOnChip: 0
+    holdGravityDuration: 0
+    lightIntensity: 0.6
+    brightness: 1
+    useRocketDestroySettings: 0
+  destroyActionGrowSettings:
+    sortingLayer:
+      sortingLayerId: -1986597507
+      sortingOrder: 120
+    fromScale: 3
+    toScale: 9
+    fromAlpha: 0.5
+    toAlpha: 0
+    duration: 0.5
+    animationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    holdGravityOnChip: 1
+    holdGravityDuration: 0.4
+    lightIntensity: 1
+  destroyBoxActionSettings:
+    fromScale: 2
+    toScale: 1
+    duration: 0
+    animationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    fromAlpha: 1
+    toAlpha: 1
+    holdGravityOnChip: 0
+    holdGravityDuration: 0
+  destroyChipActionExplosionSettings:
+    useParticles: 0
+    fromScale: 1.8
+    duration: 0.7
+    distance: 6
+    animationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    useScaleCurve: 0
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    holdGravityOnChip: 1
+    holdGravityDuration: 0.6
+    lightIntensity: 0.6
+    sorting:
+      sortingLayerId: -1986597507
+      sortingOrder: 0
+  explosionSettings:
+    delay: 0.01
+    lightIntensity: 0.7
+    lightIntensityRange:
+      min: 2
+      max: 0.25
+    lightDuration: 2
+    maxLightDistance: 2
+    shockWaveOffset: 0.02
+    shockWaveOffsetR1: 0.01
+    useSecondaryDelay: 0
+    secondaryDelay: 0
+    useCameraShake: 0
+  crossExplosionSettings:
+    delay: 0.01
+    lightIntensity: 0.7
+    lightIntensityRange:
+      min: 1.5
+      max: 1
+    maxLightDistance: 3
+    lockReleaseDelay: 0.85
+    shockWaveOffset: 0.05
+  flyRocketPieceSettings:
+    speedRange:
+      min: 5
+      max: 25
+    accelerationTime:
+      min: 0
+      max: 0.1
+    velocityChangeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    timeScale: 1
+    lightIntensity: 0.5
+    lightIntensityRange:
+      min: 2.5
+      max: 0.5
+    maxLightDistance: 3
+    lightDuration: 2
+    scale: {x: 2, y: 1, z: 1}
+    scaleMin: {x: 2.5, y: 2.5, z: 1}
+    scaleMax: {x: 2.5, y: 1, z: 1}
+    initialDisplace: 0.3
+    initialDelay: 0
+    additionalTimeToKeepLock: 0
+    keepParticlesFor: 2
+    slotsOutside: 5
+    shockWaveOffset: 0.02
+    timeAheadDestroy: 0
+    putBoltOnLastSlot: 0
+    boltDelay: 0
+    keepBaltsDistance: 0
+    minBoltDuration: 0
+    useCameraShake: 0
+    cameraShake:
+      magnitude: 1
+      roughness: 0
+      fadeInTime: 0
+      fadeOutTime: 0
+      posInfluence: {x: 0, y: 0, z: 0}
+      rotInfluence: {x: 0, y: 0, z: 0}
+  swapChipsActionSettings:
+    duration: 0.15
+    moveCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    brightness: 2
+  showSwapNotPossibleActionSettings:
+    duration: 0
+    moveDistance: 0
+    moveCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    brightness: 2
+  destroyFromGravityAction:
+    fromScale: 1
+    toScale: 2.4
+    fromAlpha: 0.8
+    toAlpha: 0
+    duration: 0.4
+    animationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    holdGravityOnChip: 1
+    holdGravityDuration: 0.6
+    lightIntensity: 1.5
+    activateParticles: 1
+  createPowerupActionSettings:
+    useParticles: 0
+    chipStartScale: 1
+    chipEndScale: 2.6
+    chipStartAlpha: 1
+    chipEndAlpha: 0.05
+    durationForChip: 0.67
+    durationForGoalMin: 0
+    durationForGoalMax: 1
+    positionCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.5694662
+        value: -0.3970437
+        inSlope: 0.6471947
+        outSlope: 0.6471947
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 6.674386
+        outSlope: 6.674386
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    lightIntensity: 2
+    lightDuration: 3
+    goalDelay: 0.1
+    skipScale: 0
+    delayForPowerup: 0
+    durationForPowerup: 0.7
+    powerupCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.5949998
+        value: 1.073965
+        inSlope: 1.694858
+        outSlope: 1.694858
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.8549466
+        value: 0.8400797
+        inSlope: -1.176298
+        outSlope: -1.176298
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    startScale: 5
+    startAlpha: 0
+    lightRadius: 1
+    powerupLigtIntensity: 2
+    additionalKeepLock: 0.3
+    holdGravityDuration: 0.4
+  discoBallDestroyActionSettings:
+    amplitudeRange:
+      min: 0.05
+      max: 0.07
+    angleSpeed: 600
+    delayBetweenAffectedSlots: 0.1
+    initialShakeTime: 0.1
+    shakeTimeForSlot: 0.35
+    minTotalDuration: 1.5
+    touchSlotLightIntensity: 0.6
+    shockWaveOffset: 0.2
+    useCameraShake: 0
+    cameraShake:
+      magnitude: 1
+      roughness: 0
+      fadeInTime: 0
+      fadeOutTime: 0
+      posInfluence: {x: 0, y: 0, z: 0}
+      rotInfluence: {x: 0, y: 0, z: 0}
+  flyCrossRocketActionSettings:
+    delayBetweenRowsAndColumns: 0
+    delayForDistance: 0
+  lightSlotSettings:
+    lightFadeoutSpeed: 2
+    maxIntensity: 2
+    fadeOut:
+      delay: 0
+      intensityRange:
+        min: 0
+        max: 0
+      easeCurve:
+        p1: {x: 0.215, y: 0.61}
+        p2: {x: 0.355, y: 1}
+      duration: 2
+  basketBlockerSettings:
+    lightDuration: 0.5
+  conveyorBeltSettings:
+    slotsToExtendPastEndOfBoard: 3
+    delayBeforeMove: 0
+    duration: 0.4
+    pipeDuration: 0.5
+    travelCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: -0.1764706
+        outSlope: -0.1764706
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 3.130435
+        outSlope: 3.130435
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    pipeTravelCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    pipeScale: 0.95
+    minTimeNotMoveBeforeCanStartConveyor: 0
+    colorWhenActive: {r: 1, g: 1, b: 1, a: 1}
+    colorWhenMoved: {r: 1, g: 1, b: 1, a: 1}
+    colorChangeSpeed: 5
+    shouldJump: 0
+    orthoDirectionUp: 0
+    jumpScale: {x: 0, y: 0, z: 0}
+    sortingSettings:
+      sortingLayerId: 0
+      sortingOrder: 0
+    jumpUpCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    jumpDistanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  collectGoalSettings:
+    useParticlesForChip: 0
+    sortingLayer:
+      sortingLayerId: -480246525
+      sortingOrder: 10
+    sortingLayerFly:
+      sortingLayerId: -480246525
+      sortingOrder: 10
+    timeToLockSlot: 0.4
+    travelDuration: 0.7
+    travelSpeed: 0
+    travelCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.0576923
+        outSlope: 0.0576923
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    scaleUpScale: 2
+    useSmallEndScale: 0
+    smallEndScale: 0
+    smallScale: 0
+    scaleUpDuration: 0.65
+    scaleUpCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.3415723
+        value: 1.246601
+        inSlope: 1.175106
+        outSlope: 1.175106
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.6795563
+        value: 0.8761529
+        inSlope: -0.6616116
+        outSlope: -0.6616116
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    distanceWithSwap: 0.3
+    distanceWithBomb: 1.9
+    distanceWithMagicHat: 0
+    bombCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.345738
+        value: 1.154732
+        inSlope: 1.175106
+        outSlope: 1.175106
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.7920594
+        value: 0.9513177
+        inSlope: -0.6616116
+        outSlope: -0.6616116
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    bombDuration: 0.17
+    orthoDistance: 0
+    orthoCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    useScaleCurve: 0
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  collectBurriedEelementSettings:
+    sortingLayer:
+      sortingLayerId: 0
+      sortingOrder: 0
+    sortingLayerFly:
+      sortingLayerId: 0
+      sortingOrder: 0
+    travelDuration: 1
+    additionalParticlesDuration: 0.5
+    travelSpeed: 0
+    maxTime: 10
+    minTime: 0
+    travelCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    scaleUpScale: 1
+    scaleUpScalEndRange: 1
+    scaleUpDuration: 1
+    scaleUpCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rotationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    timeToLockSlot: 0
+    rotationAngle: 0
+    scaleUpAngle: 0
+    scaleUpAngleRangeEnd: 0
+    bombCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    distance: 0
+    useColor: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+    brightness: 0
+    ortoDistance: 0
+    ortoCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    useTravelScaleCurve: 0
+    travelScaleCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    useJump: 0
+    jumpDuration: 0
+    jumpOffset: {x: 0, y: 0, z: 0}
+    jumpTravelCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    angleSpeed: 0
+    jumpScale1: 0
+    jumpScale1Curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    jumpScale2: 0
+    jumpScale2Curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  collectPointsActionSettings:
+    enabled: 0
+    enableForPowerupCreate: 0
+    enableForPowerupBlow: 0
+    enableForGoals: 0
+    blockerCount: 30
+    count: 60
+    powerupCount: 100
+    fadeFrom: 0
+    fadeTo: 0
+    scaleFrom: 0
+    scaleTo: 0
+    scaleToEnd: 0
+    scaleToBlocker: 0
+    maxMatches: 0
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    appearDuration: 0
+    travelOffset: {x: 0, y: 0, z: 0}
+    travelDuration: 0
+    travelFadeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    finalAlpha: 0
+    itemColors: []
+  seekingMissileSettings:
+    bigRadiusNormalized: 1.8
+    radiusRatio: 0.6
+    altutudeScale:
+      min: 1
+      max: 1.5
+    maxAltitude: 1
+    timeToMaxAltitude: 0.25
+    keepParticlesFor: 2
+    bigExitDistanceRange:
+      min: 0.3
+      max: 0.4
+    smallExitDistanceRange:
+      min: 0.2
+      max: 0.7
+    bigCircleAccelerationCurve:
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 2
+          outSlope: 2
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      range:
+        min: 0
+        max: 0.4
+      duration: 0.15
+    smallCircleAccelerationCurve:
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2
+          outSlope: 2
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      range:
+        min: 0.4
+        max: 0.4
+      duration: 0.25
+    lineAccelerationCurve:
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      range:
+        min: 0.4
+        max: 0.6
+      duration: 0.2
+    overrideStartPosition: 0
+    startPosition: {x: -3, y: -2, z: 0}
+    overrideEndPosition: 0
+    endPosition: {x: -4, y: -4, z: 0}
+    overrideBigAngle: 0
+    bigAngle: 0
+    overrideT: 0
+    t: 0.571961
+    lightIntensityChange:
+      delay: 0.1
+      intensityRange:
+        min: 0
+        max: 2
+      easeCurve:
+        p1: {x: 0.215, y: 0.61}
+        p2: {x: 0.355, y: 1}
+      duration: 1
+    hitLightIntensity: 1
+    shockWaveOffset: 0.2
+    shockWaveOffsetR1: 0.1
+    useCameraShakeOnLand: 0
+    cameraShake:
+      magnitude: 1
+      roughness: 0
+      fadeInTime: 0
+      fadeOutTime: 0
+      posInfluence: {x: 0, y: 0, z: 0}
+      rotInfluence: {x: 0, y: 0, z: 0}
+    useCameraShakeOnTakeOff: 0
+    takeOffCameraShake:
+      magnitude: 1
+      roughness: 0
+      fadeInTime: 0
+      fadeOutTime: 0
+      posInfluence: {x: 0, y: 0, z: 0}
+      rotInfluence: {x: 0, y: 0, z: 0}
+  seekingMissileComboSettings:
+    delay: 0.3
+  showPotentialMatchesSettings:
+    duration: 1.5
+    scaleDownDuration: 0.75
+    scaleDownAnimation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    waitBetweenFlashes: 5
+    scaleAnimation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.345738
+        value: 1.154732
+        inSlope: 1.175106
+        outSlope: 1.175106
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.7920594
+        value: 0.9513177
+        inSlope: -0.6616116
+        outSlope: -0.6616116
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    useBrightness: 0
+    brightnessMax: 1
+    brightnessCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxScale: 1.35
+    maxFlashes: 4
+    stayBigDuration: 0.25
+    idleTimeBeforeShowMatch: 6
+    boardIdleTimeBeforeShowMatch: 2
+    idleTimeBeforePowerupCombine: 1
+    boardIdleTimeBeforePowerupCombine: 0.5
+    moveDuration: 1
+    moveDistance: 0.5
+    moveCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDelay: 0
+    showSettingsModifiers: []
+  swapToMatchActionSettings:
+    slot1LightIntensity: 0
+    slot2LightIntensity: 0
+  playerInputSettings:
+    tapToDestroy: 0
+    maxDistance: 7
+    maxDisplace: 0.2
+    maxDistanceCurrentPos: 0.75
+    maxDisplaceFwd: 0.1
+    maxDisplaceBck: 0.1
+    noDragFactor: 0.8
+    maxAcceleration: 0
+    displaceScale: {x: 1, y: 1, z: 1}
+    displaceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    velocityDisplaceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    maxOffsetVelocity: 0.35
+    stiffness: 0.7
+    dampingFactor: 0.1
+    displacePull: 12
+    enableBouncyMode: 1
+    inputDirectMode: 1
+    switchImmediateIfPossible: 0
+    switchSlotPosition: 1
+    inputLineMode: 0
+    useMouse1ForBouncy: 0
+    lightIntensityForMatch: 0
+    lightIntensityForMatchOff: 0
+    addPowerupVis: 1
+    addedLightIntensityForMatch: 0.25
+    velocityDisplace: 0.2
+    velocityDisplaceFwd: 0.75
+    velocityDisplaceBck: 0.1
+    centreMaxDistance: 5
+    centreOffset: 0.1
+    bckMaxDistanceX: 5
+    bckMaxDistanceY: 5
+    bckOffsetX:
+      min: 0.5
+      max: 0
+    bckOffsetY:
+      min: 1
+      max: 0
+    bckCurveX:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.008335114
+        value: 0
+        inSlope: 0.3529441
+        outSlope: 0.3529441
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    bckCurveY:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    fwdMaxDistanceX: 5
+    fwdMaxDistanceY: 5
+    fwdOffsetX:
+      min: 0.3
+      max: 0
+    fwdOffsetY:
+      min: 1
+      max: 0
+    totalOffsetForFirstSlot: 0.5
+    totalOffsetForFirstSlotMatching: 1
+    directionInfluence: 0
+    directionInfluenceFwd: 0
+    pullCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.004165649
+        value: 0.3
+        inSlope: 0.1037657
+        outSlope: 0.1037657
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.05902498
+        value: 0.9059596
+        inSlope: 0.1129508
+        outSlope: 0.1129508
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    directionInfluenceControl: 0
+    disableLightingInAffectors: 0
+    useSimpleLineBolts: 0
+    disableBombLighting: 0
+  playerInputMoveFromLineSettings:
+    maxDistance: 8
+    displaceRange:
+      min: 0.45
+      max: 0.45
+    displaceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    affectedOrtho: 3
+    displacePull: 10
+    angleSpeed: 0.4
+    phaseOffsetMult: 0.1
+    amplitude: 0.15
+    originScale: 2.5
+    lightIntensity: 1
+    distanceDelay: 0.025
+    lightIntensityRange:
+      min: 0.5
+      max: 2
+    maxLightDistance: 4
+    timeToFullIntensity: 0.2
+    intensityCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    lockLine: 0
+    scaleRange:
+      min: 0.3
+      max: 1
+    orthoScaleInfluence: 0.25
+  explosionAffectorSettings:
+    radius: 2
+    maxDistance: 2
+    displaceRange:
+      min: -0.2
+      max: -0.4
+    displaceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    displacePull: 10
+    angleSpeed: 0.4
+    phaseOffsetMult: 1
+    amplitude: 0.05
+    originScale: 2
+    lightIntensity: 1
+    distanceDelay: 0.05
+    lightIntensityRange:
+      min: 1
+      max: 2
+    maxLightDistance: 2
+    timeToFullIntensity: 0.3
+    intensityCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    lockLine: 0
+    scaleRange:
+      min: 1
+      max: 1
+    orthoScaleInfluence: 0.5
+  playerInputCrossAffectorSettings:
+    maxDistance: 8
+    displaceRange:
+      min: 0.45
+      max: 0.45
+    displaceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    affectedOrtho: 3
+    displacePull: 10
+    angleSpeed: 0.4
+    phaseOffsetMult: 0.1
+    amplitude: 0.15
+    originScale: 2.5
+    lightIntensity: 1
+    distanceDelay: 0.025
+    lightIntensityRange:
+      min: 0.5
+      max: 2
+    maxLightDistance: 4
+    timeToFullIntensity: 0.2
+    intensityCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    lockLine: 0
+    scaleRange:
+      min: 0.3
+      max: 1
+    orthoScaleInfluence: 0.25
+  discoBallAffectorSettings:
+    displacePull: 10
+    angleSpeed: 0.4
+    phaseOffsetMult: 0.1
+    amplitude: 0.15
+    originScale: 2.5
+    lightIntensity: 1
+    lightIntensityRange:
+      min: 0
+      max: 0
+    timeToFullIntensity: 0.4
+    intensityCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    lockLine: 0
+    durationToGetClose: 0.2
+    maxScale: 1.1
+    normalizedClosePosition: 0.5
+    outDuration: 0.2
+    minDuration: 0.75
+    delayTime: 0.5
+    activationDelay: 0.05
+  chipJumpSettings:
+    startOffset: {x: 0, y: 0.1, z: 0}
+    offset: {x: 0, y: 0.1, z: 0}
+    useStartScale: 0
+    startScale: {x: 1, y: 1, z: 1}
+    scale: {x: 0.975, y: 1.025, z: 1}
+    rotationAngle: 0
+    duration: 1.5
+    animationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.7
+        value: 1
+        inSlope: -0.002501157
+        outSlope: -0.002501157
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1.004181
+        value: 0
+        inSlope: -0.04166272
+        outSlope: -0.04166272
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    delay: 0.1
+    delayPerX: 0
+  chipWobbleSettings:
+    startScale: 0.8
+    endScale: 1
+    directDriveScaleCurve: 0
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    duration: 0
+  powerupJumpSettings:
+    startOffset: {x: 0, y: 0, z: 0}
+    offset: {x: 0, y: 0, z: 0}
+    useStartScale: 0
+    startScale: {x: 1, y: 1, z: 1}
+    scale: {x: 1.1, y: 0.9, z: 1}
+    rotationAngle: 0
+    duration: 1
+    animationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: -0.002501157
+        outSlope: -0.002501157
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1.004181
+        value: 0
+        inSlope: -0.04166272
+        outSlope: -0.04166272
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    delay: 0
+    delayPerX: 0
+  horizontalRocketJumpSettings:
+    startOffset: {x: 0, y: 0, z: 0}
+    offset: {x: 0, y: 0, z: 0}
+    useStartScale: 0
+    startScale: {x: 1, y: 1, z: 1}
+    scale: {x: 1.2, y: 0.95, z: 1}
+    rotationAngle: 0
+    duration: 2.5
+    animationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: -0.002501157
+        outSlope: -0.002501157
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1.004181
+        value: 0
+        inSlope: -0.04166272
+        outSlope: -0.04166272
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    delay: 0
+    delayPerX: 0
+  verticalRocketJumpSettings:
+    startOffset: {x: 0, y: 0, z: 0}
+    offset: {x: 0, y: 0, z: 0}
+    useStartScale: 0
+    startScale: {x: 1, y: 1, z: 1}
+    scale: {x: 0.95, y: 1.2, z: 1}
+    rotationAngle: 0
+    duration: 2.5
+    animationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.7
+        value: 1
+        inSlope: -0.002501157
+        outSlope: -0.002501157
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1.004181
+        value: 0
+        inSlope: -0.04166272
+        outSlope: -0.04166272
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    delay: 0
+    delayPerX: 0
+  bombJumpSettings:
+    startOffset: {x: 0, y: 0, z: 0}
+    offset: {x: 0, y: 0.05, z: 0}
+    useStartScale: 0
+    startScale: {x: 1, y: 1, z: 1}
+    scale: {x: 1.1, y: 1.1, z: 1}
+    rotationAngle: 7
+    duration: 3
+    animationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: -0.002501157
+        outSlope: -0.002501157
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1.004181
+        value: 0
+        inSlope: -0.04166272
+        outSlope: -0.04166272
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    delay: 1
+    delayPerX: 0.1
+  discoBallJumpSettings:
+    startOffset: {x: 0, y: 0, z: 0}
+    offset: {x: 0, y: 0, z: 0}
+    useStartScale: 0
+    startScale: {x: 1, y: 1, z: 1}
+    scale: {x: 1.3, y: 1.3, z: 1}
+    rotationAngle: 0
+    duration: 2
+    animationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.7
+        value: 1
+        inSlope: -0.002501157
+        outSlope: -0.002501157
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1.004181
+        value: 0
+        inSlope: -0.04166272
+        outSlope: -0.04166272
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    delay: 1
+    delayPerX: 0
+  seekingMissleJumpSettings:
+    startOffset: {x: 0, y: 0, z: 0}
+    offset: {x: -0.05, y: 0.05, z: 0}
+    useStartScale: 0
+    startScale: {x: 1, y: 1, z: 1}
+    scale: {x: 1.05, y: 1.1, z: 1}
+    rotationAngle: -10
+    duration: 3
+    animationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.7
+        value: 1
+        inSlope: -0.002501157
+        outSlope: -0.002501157
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1.004181
+        value: 0
+        inSlope: -0.04166272
+        outSlope: -0.04166272
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    delay: 0.5
+    delayPerX: 0.1
+  confirmPurchasePanelSettings:
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    zoomInDuration: 1
+    zoomInFactor: 1.5
+    moveTowardsFactor: 0.1
+    zoomOutDuration: 0.5
+    outCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    inAnimationDuration: 0
+    inAnimationZoomFrom: {x: 0, y: 0, z: 0}
+    inAnimationZoomTo: {x: 0, y: 0, z: 0}
+    inAnimationzoomAnimationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    selectorAnimationDuration: 0
+    selectorAnimationZoomFrom: {x: 0, y: 0, z: 0}
+    selectorAnimationAlphaFrom: 0
+    selectorAnimationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  visualItemAnimationSettings:
+    durationOfPop: 0
+    startScale: {x: 0, y: 0, z: 0}
+    popCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delayPerIndex: 0.05
+    loopDuration: 0
+    loopOffset: {x: 0, y: 0, z: 0}
+    loopScaleOffset: {x: 0, y: 0, z: 0}
+    loopCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  winScreenBoardOutAnimation:
+    duration: 0
+    offset: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    outCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  winScreenInAnimation:
+    duration: 0
+    offset: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  moneyPickupAnimationSettings:
+    inAnimationDuration: 1
+    totalDelayForInAnimationIndexes: 0.5
+    inScaleCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    startScale: 0
+    randomRange: {x: 0, y: 0, z: 0}
+    travelDuration: 0.75
+    totalDelayForIndexes: 1
+    travelCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    travelEndScale: 0
+    travelScaleCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    bobDuration: 1
+    bobScale: 1.1
+    bobCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    numberOfCoins: 10
+    numberOfStars: 10
+  magicHatSettings:
+    durationForBunnyUp: 0
+    bunnyOffsetIn: {x: 0, y: 0, z: 0}
+    bunnyOffsetOut: {x: 0, y: 0, z: 0}
+    bunnyScaleIn: {x: 0, y: 0, z: 0}
+    bunnyScaleOut: {x: 0, y: 0, z: 0}
+    positionCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delayUp: 0
+  magicHatSettingsBomb:
+    durationForBunnyUp: 0
+    bunnyOffsetIn: {x: 0, y: 0, z: 0}
+    bunnyOffsetOut: {x: 0, y: 0, z: 0}
+    bunnyScaleIn: {x: 0, y: 0, z: 0}
+    bunnyScaleOut: {x: 0, y: 0, z: 0}
+    positionCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delayUp: 0
+  dragButtonSettings:
+    bobDuration: 0
+    bobDisplace: 0
+    animationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    pressScale: 1.3
+  starConsumeSettings:
+    moveStartScale: 0
+    moveEndScale: 0
+    moveDuration: 0
+    animationDelayDuration: 0
+    moveEndAlpha: 0
+    moveCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    endScale: 0
+    scaleDuration: 0
+    whiteoutAlphaEnd: 1
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  multiLevelAnimationSettings:
+    durationPerScreen: 0
+    moveAnimationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    initialDelay: 0
+  burriedElementPieceSettings:
+    colorWhenBurried: {r: 1, g: 1, b: 1, a: 1}
+    colorWhenDugOut: {r: 1, g: 1, b: 1, a: 1}
+  animateGrowingElementOnChipSettings:
+    sortingLayer:
+      sortingLayerId: -1986597507
+      sortingOrder: 0
+    sortingLayerFly:
+      sortingLayerId: -1986597507
+      sortingOrder: 0
+    travelDuration: 2
+    travelCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    startScale: 0.25
+    scaleUpScale: 0.8
+    scaleUpDuration: 2
+    scaleUpCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.345738
+        value: 1.154732
+        inSlope: 1.175106
+        outSlope: 1.175106
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.7920594
+        value: 0.9513177
+        inSlope: -0.6616116
+        outSlope: -0.6616116
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rotationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  animateCarryPieceSettings:
+    sortingLayer:
+      sortingLayerId: 0
+      sortingOrder: 0
+    sortingLayerFly:
+      sortingLayerId: 0
+      sortingOrder: 0
+    travelDuration: 1
+    travelCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    startScale: 0.5
+    scaleUpScale: 1
+    scaleUpDuration: 1
+    scaleUpCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rotationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    bombDuration: 0
+    bombCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    distanceWithMagicHat: 0
+  growingElementPotSettings:
+    startScale: {x: 0, y: 0, z: 0}
+    endScale: {x: 1, y: 1, z: 1}
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    scaleDuration: 0
+  winScreenSettings:
+    starTravelDuration: 1
+    starRotationAngle: 760
+    starEndScale: 0
+    backgroundFadeOutDuration: 0.5
+    coinTravelDuration: 0.75
+    coinEndScale: 0
+    maxCoinsToAnimate: 100
+  swipeAffectorSettings:
+    upScale: 1.2
+    createPowerupScale: 1
+    pullOffset: 0
+    offsetTillMoveEnd: 0
+    moveDuration: 0.1
+    moveCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    brightness: 1
+    angleSpeed: 100
+    phaseOffsetMult: 1
+    amplitude: 0.05
+    minAffectorDuration: 0.5
+    ignoreBoltsWithoutPowerup: 0
+    hasMaxAffectorDuration: 0
+    maxMaxAffectorDuration: 0.1
+    minAutoMatchDuration: 0.15
+    minAffectorDurationPowerup: 0.5
+    minAffectorDurationMix: 0.5
+    lightIntensity: 0
+    shockWaveOffset: 0.1
+    useParticles: 0
+    autoMatchesProduceLighting: 0
+    activeGoalUpScale: 1.4
+    useAutoMatchDuration: 0
+    autoMatchDuration: 0.5
+  seekingMissleAffectorSettings:
+    minAffectorDuration: 0.25
+    outDuration: 0.1
+    angleSpeed: 100
+    phaseOffsetMult: 1
+    amplitude: 0.05
+  powerLineAffectorSettings:
+    minAffectorDuration: 0.25
+    outDuration: 0.1
+    angleSpeed: 100
+    phaseOffsetMult: 1
+    amplitude: 0.05
+  powerCrossAffectorSettings:
+    minAffectorDuration: 0.25
+    outDuration: 0.1
+    angleSpeed: 100
+    phaseOffsetMult: 1
+    amplitude: 0.05
+  placePowerupActionSettings:
+    delayBetweenPowerups: 0.5
+    durationForPowerup: 1
+    powerupCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    startScale: 2
+    startAlpha: 0
+    normalizedTimeForParticles: 0
+  destroyIslandBlinkSettings:
+    dulationToHold: 0.2
+    durationToHoldMax: 0
+    useBlink: 0
+    changeBrightness: 0
+    brightness: 0
+    brightnessCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  destroyAfterSettings:
+    dulationToHold: 0.2
+    durationToHoldMax: 0
+    useBlink: 0
+    changeBrightness: 0
+    brightness: 0
+    brightnessCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  tutorialHandSettings:
+    scaleHandFrom: 2
+    scaleHandTo: 1
+    alphaHandFrom: 0
+    alphaHandTo: 1
+    scaleInDuration: 0.5
+    scaleInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delayAfterScale: 0
+    moveDuration: 2
+    moveCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    waitOnDestination: 0
+    fromAlphaMove: 1
+    toAlphaMove: 1
+  tutorialSwipeSettings:
+    scaleHandFrom: 2
+    scaleHandTo: 1
+    alphaHandFrom: 0
+    alphaHandTo: 1
+    scaleInDuration: 0.5
+    scaleInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delayAfterScale: 0
+    moveDuration: 2
+    moveCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    waitOnDestination: 0
+    fromAlphaMove: 1
+    toAlphaMove: 1
+  tutorialTouchSettings:
+    scaleHandFrom: 2
+    scaleHandTo: 1
+    alphaHandFrom: 0
+    alphaHandTo: 1
+    scaleInDuration: 0.5
+    scaleInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delayAfterScale: 0
+    moveDuration: 2
+    moveCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    waitOnDestination: 0
+    fromAlphaMove: 1
+    toAlphaMove: 1

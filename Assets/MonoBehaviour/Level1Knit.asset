@@ -1,0 +1,345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5b1fb05336f5939fde9a24ffcced3a, type: 3}
+  m_Name: "Level1Knit"
+  m_EditorClassIdentifier: 
+  maxTextureWidth: 1024
+  border:
+    leftOffset: 0
+    leftWidth: 0
+    rightOffset: 0
+    rightWidth: 0
+    topOffset: 0
+    topWidth: 0
+    bottomOffset: 0
+    bottomWidth: 0
+  spritePadding: 0
+  tiles:
+  - positionInOriginal: {x: 896, y: 1664}
+    positions:
+    - position: 2
+      conditions:
+      - offset: {x: 0, y: 1}
+        conditionEnum: 1
+      - offset: {x: -1, y: 0}
+        conditionEnum: 0
+      - offset: {x: -1, y: 1}
+        conditionEnum: 1
+      drawableRects: []
+    - position: 3
+      conditions:
+      - offset: {x: 0, y: 1}
+        conditionEnum: 1
+      - offset: {x: 1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 1, y: 1}
+        conditionEnum: 1
+      drawableRects: []
+    rowColumnInTileMap: {x: 0, y: 0}
+  - positionInOriginal: {x: 896, y: 256}
+    positions:
+    - position: 0
+      conditions:
+      - offset: {x: 0, y: -1}
+        conditionEnum: 1
+      - offset: {x: -1, y: 0}
+        conditionEnum: 0
+      - offset: {x: -1, y: -1}
+        conditionEnum: 1
+      drawableRects: []
+    - position: 1
+      conditions:
+      - offset: {x: 0, y: -1}
+        conditionEnum: 1
+      - offset: {x: 1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 1, y: -1}
+        conditionEnum: 1
+      drawableRects: []
+    rowColumnInTileMap: {x: 1, y: 0}
+  - positionInOriginal: {x: 256, y: 896}
+    positions:
+    - position: 2
+      conditions:
+      - offset: {x: -1, y: 0}
+        conditionEnum: 1
+      - offset: {x: 0, y: 1}
+        conditionEnum: 0
+      - offset: {x: -1, y: 1}
+        conditionEnum: 1
+      drawableRects: []
+    - position: 0
+      conditions:
+      - offset: {x: -1, y: 0}
+        conditionEnum: 1
+      - offset: {x: 0, y: -1}
+        conditionEnum: 0
+      - offset: {x: -1, y: -1}
+        conditionEnum: 1
+      drawableRects: []
+    rowColumnInTileMap: {x: 2, y: 0}
+  - positionInOriginal: {x: 1664, y: 896}
+    positions:
+    - position: 3
+      conditions:
+      - offset: {x: 1, y: 0}
+        conditionEnum: 1
+      - offset: {x: 0, y: 1}
+        conditionEnum: 0
+      - offset: {x: 1, y: 1}
+        conditionEnum: 1
+      drawableRects: []
+    - position: 1
+      conditions:
+      - offset: {x: 1, y: 0}
+        conditionEnum: 1
+      - offset: {x: 0, y: -1}
+        conditionEnum: 0
+      - offset: {x: 1, y: -1}
+        conditionEnum: 1
+      drawableRects: []
+    rowColumnInTileMap: {x: 3, y: 0}
+  - positionInOriginal: {x: 256, y: 1152}
+    positions:
+    - position: 2
+      conditions:
+      - offset: {x: -1, y: 0}
+        conditionEnum: 1
+      - offset: {x: 0, y: 1}
+        conditionEnum: 1
+      drawableRects: []
+    rowColumnInTileMap: {x: 4, y: 0}
+  - positionInOriginal: {x: 1664, y: 1152}
+    positions:
+    - position: 3
+      conditions:
+      - offset: {x: 1, y: 0}
+        conditionEnum: 1
+      - offset: {x: 0, y: 1}
+        conditionEnum: 1
+      drawableRects: []
+    rowColumnInTileMap: {x: 5, y: 0}
+  - positionInOriginal: {x: 256, y: 768}
+    positions:
+    - position: 0
+      conditions:
+      - offset: {x: -1, y: 0}
+        conditionEnum: 1
+      - offset: {x: 0, y: -1}
+        conditionEnum: 1
+      drawableRects: []
+    rowColumnInTileMap: {x: 6, y: 0}
+  - positionInOriginal: {x: 1664, y: 768}
+    positions:
+    - position: 1
+      conditions:
+      - offset: {x: 1, y: 0}
+        conditionEnum: 1
+      - offset: {x: 0, y: -1}
+        conditionEnum: 1
+      drawableRects: []
+    rowColumnInTileMap: {x: 7, y: 0}
+  - positionInOriginal: {x: 640, y: 1152}
+    positions:
+    - position: 3
+      conditions:
+      - offset: {x: 1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 0, y: 1}
+        conditionEnum: 1
+      - offset: {x: 1, y: 1}
+        conditionEnum: 0
+      drawableRects: []
+    rowColumnInTileMap: {x: 0, y: 1}
+  - positionInOriginal: {x: 768, y: 1152}
+    positions:
+    - position: 2
+      conditions:
+      - offset: {x: -1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 0, y: 1}
+        conditionEnum: 0
+      - offset: {x: -1, y: 1}
+        conditionEnum: 1
+      drawableRects: []
+    rowColumnInTileMap: {x: 1, y: 1}
+  - positionInOriginal: {x: 768, y: 1280}
+    positions:
+    - position: 0
+      conditions:
+      - offset: {x: -1, y: 0}
+        conditionEnum: 1
+      - offset: {x: 0, y: -1}
+        conditionEnum: 0
+      - offset: {x: -1, y: -1}
+        conditionEnum: 0
+      drawableRects: []
+    rowColumnInTileMap: {x: 2, y: 1}
+  - positionInOriginal: {x: 1152, y: 1280}
+    positions:
+    - position: 1
+      conditions:
+      - offset: {x: 1, y: 0}
+        conditionEnum: 1
+      - offset: {x: 0, y: -1}
+        conditionEnum: 0
+      - offset: {x: 1, y: -1}
+        conditionEnum: 0
+      drawableRects: []
+    rowColumnInTileMap: {x: 3, y: 1}
+  - positionInOriginal: {x: 1152, y: 1152}
+    positions:
+    - position: 3
+      conditions:
+      - offset: {x: 1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 0, y: 1}
+        conditionEnum: 0
+      - offset: {x: 1, y: 1}
+        conditionEnum: 1
+      drawableRects: []
+    rowColumnInTileMap: {x: 4, y: 1}
+  - positionInOriginal: {x: 1280, y: 1152}
+    positions:
+    - position: 2
+      conditions:
+      - offset: {x: -1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 0, y: 1}
+        conditionEnum: 1
+      - offset: {x: -1, y: 1}
+        conditionEnum: 0
+      drawableRects: []
+    rowColumnInTileMap: {x: 5, y: 1}
+  - positionInOriginal: {x: 640, y: 768}
+    positions:
+    - position: 1
+      conditions:
+      - offset: {x: 1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 0, y: -1}
+        conditionEnum: 1
+      - offset: {x: 1, y: -1}
+        conditionEnum: 0
+      drawableRects: []
+    rowColumnInTileMap: {x: 6, y: 1}
+  - positionInOriginal: {x: 768, y: 768}
+    positions:
+    - position: 0
+      conditions:
+      - offset: {x: -1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 0, y: -1}
+        conditionEnum: 0
+      - offset: {x: -1, y: -1}
+        conditionEnum: 1
+      drawableRects: []
+    rowColumnInTileMap: {x: 7, y: 1}
+  - positionInOriginal: {x: 768, y: 640}
+    positions:
+    - position: 2
+      conditions:
+      - offset: {x: -1, y: 0}
+        conditionEnum: 1
+      - offset: {x: 0, y: 1}
+        conditionEnum: 0
+      - offset: {x: -1, y: 1}
+        conditionEnum: 0
+      drawableRects: []
+    rowColumnInTileMap: {x: 0, y: 2}
+  - positionInOriginal: {x: 1152, y: 640}
+    positions:
+    - position: 3
+      conditions:
+      - offset: {x: 1, y: 0}
+        conditionEnum: 1
+      - offset: {x: 0, y: 1}
+        conditionEnum: 0
+      - offset: {x: 1, y: 1}
+        conditionEnum: 0
+      drawableRects: []
+    rowColumnInTileMap: {x: 1, y: 2}
+  - positionInOriginal: {x: 1152, y: 768}
+    positions:
+    - position: 1
+      conditions:
+      - offset: {x: 1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 0, y: -1}
+        conditionEnum: 0
+      - offset: {x: 1, y: -1}
+        conditionEnum: 1
+      drawableRects: []
+    rowColumnInTileMap: {x: 2, y: 2}
+  - positionInOriginal: {x: 1280, y: 768}
+    positions:
+    - position: 0
+      conditions:
+      - offset: {x: -1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 0, y: -1}
+        conditionEnum: 1
+      - offset: {x: -1, y: -1}
+        conditionEnum: 0
+      drawableRects: []
+    rowColumnInTileMap: {x: 3, y: 2}
+  - positionInOriginal: {x: 1024, y: 1024}
+    positions:
+    - position: 0
+      conditions:
+      - offset: {x: -1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 0, y: -1}
+        conditionEnum: 0
+      - offset: {x: -1, y: -1}
+        conditionEnum: 0
+      drawableRects: []
+    rowColumnInTileMap: {x: 4, y: 2}
+  - positionInOriginal: {x: 768, y: 896}
+    positions:
+    - position: 2
+      conditions:
+      - offset: {x: -1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 0, y: 1}
+        conditionEnum: 0
+      - offset: {x: -1, y: 1}
+        conditionEnum: 0
+      drawableRects: []
+    rowColumnInTileMap: {x: 5, y: 2}
+  - positionInOriginal: {x: 896, y: 768}
+    positions:
+    - position: 1
+      conditions:
+      - offset: {x: 1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 0, y: -1}
+        conditionEnum: 0
+      - offset: {x: 1, y: -1}
+        conditionEnum: 0
+      drawableRects: []
+    rowColumnInTileMap: {x: 6, y: 2}
+  - positionInOriginal: {x: 896, y: 896}
+    positions:
+    - position: 3
+      conditions:
+      - offset: {x: 1, y: 0}
+        conditionEnum: 0
+      - offset: {x: 0, y: 1}
+        conditionEnum: 0
+      - offset: {x: 1, y: 1}
+        conditionEnum: 0
+      drawableRects: []
+    rowColumnInTileMap: {x: 7, y: 2}
+  uvSize: {x: 0.125, y: 0.25}
+  texture: {fileID: 2800000, guid: 9bac9565c1fe4413ab5641996306677e, type: 3}
+  material: {fileID: 2100000, guid: 0bd24aeb246a419c844d473711dc6e24, type: 2}

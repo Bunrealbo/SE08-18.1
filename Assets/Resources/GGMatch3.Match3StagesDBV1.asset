@@ -1,0 +1,693 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18acd282629a86d0640cd14fc75f6e3d, type: 3}
+  m_Name: "GGMatch3.Match3StagesDBV1"
+  m_EditorClassIdentifier: 
+  defaultBoosters:
+  - boosterType: 0
+  - boosterType: 1
+  - boosterType: 2
+  limit: 0
+  stages:
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel72"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 1
+    showStarDialog: 1
+    startMessages:
+    - "Hey Designer! I want a Cool House!\x5cn\x5cnThanks!"
+    - "<b>Drag<\x2fb> a star to start designing"
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel73"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 1
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel39"
+    multiLevelReference: []
+    coinsCount: 10
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel21"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel79"
+    multiLevelReference: []
+    coinsCount: 30
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel55"
+    multiLevelReference: []
+    coinsCount: 15
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel66"
+    multiLevelReference: []
+    coinsCount: 5
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel69"
+    multiLevelReference: []
+    coinsCount: 10
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel26"
+    multiLevelReference: []
+    coinsCount: 8
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel45"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel52"
+    multiLevelReference: []
+    coinsCount: 20
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel6"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel13"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel38"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel23"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel71"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel51"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel67"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel24"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel58"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel14"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel69"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel18"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel39"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel17"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel68"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel19"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel53"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel50"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel4"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel21"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel56"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel37"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel22"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel26"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel63"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel29"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel60"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel16"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel48"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel2"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel30"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel61"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel46"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel40"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel43"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel41"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel42"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel56"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel64"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel31"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel70"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel49"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel65"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel15"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel27"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel59"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel28"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel47"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel35"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []
+  - difficulty_: 0
+    levelReference:
+      levelDBName: 
+      levelName: "InesLevel33"
+    multiLevelReference: []
+    coinsCount: 0
+    forbittenBoosters: 
+    hideUIElements: 0
+    showStarDialog: 0
+    startMessages: []
+    alternatives: []

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 734242eb90f51048bbe6d25a1453aea9, type: 3}
+  m_Name: "BuyMovesPricesConfig"
+  m_EditorClassIdentifier: 
+  offers:
+  - movesCount: 5
+    price:
+      currency: 0
+      cost: 1000
+    powerups:
+    - powerupType: 6
+      count: 1
+  - movesCount: 5
+    price:
+      currency: 0
+      cost: 1200
+    powerups:
+    - powerupType: 6
+      count: 2
+  - movesCount: 5
+    price:
+      currency: 0
+      cost: 1500
+    powerups:
+    - powerupType: 6
+      count: 2
+    - powerupType: 1
+      count: 2
+  - movesCount: 5
+    price:
+      currency: 0
+      cost: 2000
+    powerups:
+    - powerupType: 6
+      count: 3
+    - powerupType: 1
+      count: 2
+  - movesCount: 5
+    price:
+      currency: 0
+      cost: 2500
+    powerups:
+    - powerupType: 6
+      count: 3
+    - powerupType: 1
+      count: 3

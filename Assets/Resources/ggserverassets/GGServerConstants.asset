@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bea7de5f8b9b4a1ac6cd076bb461fd14, type: 3}
+  m_Name: "GGServerConstants"
+  m_EditorClassIdentifier: 
+  constantsName: "Live"
+  privateKey: "RKaEFn3f1OpzsqtV7L9B7Usjnxl0QwA2"
+  publicKey: "1ADVDohGq8xvFLZg8NMA9SvnjE0RHJmE"
+  appName: "m3HomeDesign"
+  urlBase: "http:\x2f\x2fggmultiplayer.herokuapp.com\x2f"
+  leadVersion: 0
+  nonceUrlPath: "client\x2fnonce"
+  timeUrlPath: "client\x2ftime"
+  leadUrlPath: "comp\x2flead"
+  updateUrlPath: "comp\x2fupdate"
+  getIdUrlPath: "users\x2fgetId"
+  getPrizesUrlPath: "comp\x2fgetPrizes"
+  ackPrizesUrlPath: "comp\x2fackPrizes"
+  getActiveCompetitionUrlPath: "comp\x2factive"
+  getCloudSyncUrlPath: "cs\x2fget"
+  updateCloudSyncUrlPath: "cs\x2fupdate"
+  FBLoginUrlPath: "login\x2ffb"
+  FBInvitableFriendsPath: "facebook\x2fgetInvitableFriends"
+  PlayerProfilePath: "facebook\x2fgetPlayerProfile"
+  FBPlayingFriendsPath: "facebook\x2fgetPlayingFriends"
+  PlayerGetMessagesPath: "messages\x2fgetMessages"
+  MarkMessageReadPath: "messages\x2fmarkAsRead"
+  getFriendProfilesPath: "cs\x2fgetProfiles"
+  getSegmentedLeaderboards: "comp\x2fsegmentedLead"
+  verifyInAppPurchases: "ia\x2fplay\x2fverify"
+  exchangeCurrencyPath: "ia\x2fexchange"
+  getOnlineEventsPath: "getonlineevents"
+  getOnlineEventsLeaderboardsPath: "geteventslead"
+  updateOnlineEventsPath: "updatechallengescore"
+  likeReplayPath: "likereplay"
+  getPositionPath: "getposition"
+  getPlayerPositionList: "comp\x2fgetPositions"
+  uploadLeadDataPath: "savedata"
+  getAppMessagesPath: "getMessage"
+  getEventMessagesPath: "messageforevent"
+  updateAppMessagesPath: "updateMessage"
+  createUserChallengePath: "createuserchallenge"
+  getUserChallengePath: "getuserchallenge"
+  getChallengesForPlayerPath: "getchallengesforplayer"
+  userChallengeReportScorePath: "uploadleaderboard"
+  likeUserChallengesPath: "setlikelevel"
+  rateUserChallengesPath: "setratinglevel"
+  getSingleChallengePath: "getchallengefromid"
+  userChallengeIncrementDownloadCountPath: "incDownloadCount"
+  createChallengeReportPath: "createchallengereport"
+  fbInvitePagesToFetch: 2
+  maxEntriesPerLead: 5

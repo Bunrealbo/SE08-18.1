@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/GameBase/DesignHomeDemo/Scenes/SplashScene.unity
+    guid: 8229e52dd83197a49a9953afcdb94d1c
+  - enabled: 1
+    path: Assets/GameBase/DesignHomeDemo/Scenes/MainUI.unity
+    guid: f2e3977dc10a3db47badf157f0702122
+  - enabled: 1
+    path: Assets/GameBase/GGMatch3/Scene/Match3Game.unity
+    guid: 4f90a275ff1df3d4a8f3f3292cb44392
+  - enabled: 1
+    path: Assets/Art_HomeDesign/Rooms/0020_Bedroom/Room3_Second.unity
+    guid: 3b0f4944e46515d49aaeff7af8be06d4
+  - enabled: 1
+    path: Assets/Art_HomeDesign/Rooms/0070_AtticRoom/Room070_Attic.unity
+    guid: c306ed17465166d408e518770e4b8cbb
+  - enabled: 1
+    path: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda_First.unity
+    guid: c45316f7cd1a0614fb63db48e3585a45
+  - enabled: 1
+    path: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
+    guid: 82e8a4229df028541aca7930f29b9da3
+  - enabled: 1
+    path: Assets/Art_HomeDesign/Rooms/0040_LivingRoom/Room040.unity
+    guid: c0b6e93a611affb45b90849d918db5bf
+  - enabled: 1
+    path: Assets/Art_HomeDesign/Rooms/0035_KitchenCountry/0035_KitchenCountry.unity
+    guid: 3ed6e69dede29104191639b96fb088ec

@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f925be6949c7e8f1c94da952db49c308, type: 3}
+  m_Name: "RoomsDB"
+  m_EditorClassIdentifier: 
+  roomsList:
+  - name: "Veranda"
+    sceneName: "Room0090_Veranda_First"
+    displayName: "Veranda"
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: "http:\x2f\x2fggmultiplayer-backend.s3.amazonaws.com\x2fggmatch3\x2frooms\x2fOSX\x2flivingroom1"
+    assetBundleURLAndroid: "http:\x2f\x2fggmultiplayer-backend.s3.amazonaws.com\x2fggmatch3\x2frooms\x2fv1\x2flivingroom1"
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300004, guid: 316232b234524259a100426d81daf57e, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 1000
+        hours: 0
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 27
+    editorAssetPath: "Assets\x2fArt_HomeDesign\x2fRooms\x2f0090_Veranda\x2fRoom0090_Veranda.unity"
+  - name: "Room3"
+    sceneName: "Room3_Second"
+    displayName: "Bedroom"
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300008, guid: 316232b234524259a100426d81daf57e, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 44
+    editorAssetPath: "Assets\x2fArt_HomeDesign\x2fRooms\x2f0020_Bedroom\x2fRoom3.unity"
+  - name: "GirlsBedroom"
+    sceneName: "Room050_GirlsBedroom"
+    displayName: "Girls Bedroom"
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: "http:\x2f\x2fggmultiplayer-backend.s3.amazonaws.com\x2fggmatch3\x2frooms\x2fOSX\x2flivingroom1"
+    assetBundleURLAndroid: "http:\x2f\x2fggmultiplayer-backend.s3.amazonaws.com\x2fggmatch3\x2frooms\x2fv1\x2flivingroom1"
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: 316232b234524259a100426d81daf57e, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 77
+    editorAssetPath: "Assets\x2fArt_HomeDesign\x2fRooms\x2f0050_BedroomGirl\x2fRoom050_GirlsBedroom.unity"
+  - name: "Attic"
+    sceneName: "Room070_Attic"
+    displayName: "Attic Room"
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300002, guid: 316232b234524259a100426d81daf57e, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 54
+    editorAssetPath: "Assets\x2fArt_HomeDesign\x2fRooms\x2f0070_AtticRoom\x2fRoom070_Attic.unity"
+  - name: "Room040"
+    sceneName: "Room040"
+    displayName: "LivingRoom"
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: e73ad10d093d44289b14915b2eb40a7d, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 69
+    editorAssetPath: "Assets\x2fDesignHomeDemo\x2fScenes\x2fRoom040.unity"
+  - name: "0035_KitchenCountry"
+    sceneName: "0035_KitchenCountry"
+    displayName: "KitchenCountry"
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300006, guid: 316232b234524259a100426d81daf57e, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 62
+    editorAssetPath: "Assets\x2fArt_HomeDesign\x2fRooms\x2f0035_KitchenCountry\x2f0035_KitchenCountry.unity"

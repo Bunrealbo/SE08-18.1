@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f75580f1db3642d08ce72c6274480d48
+timeCreated: 1614682045
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "DaysOne"
+  fontNames:
+  - Days One
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

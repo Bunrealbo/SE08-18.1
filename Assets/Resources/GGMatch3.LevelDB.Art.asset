@@ -1,0 +1,6366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4404efdef399ed2b95463b80086bdc9d, type: 3}
+  m_Name: "GGMatch3.LevelDB.Art"
+  m_EditorClassIdentifier: 
+  _currentLevelName: "ParticleTests"
+  levels:
+  - name: "level1"
+    nextLevelName: 
+    prevLevelName: 
+    lockLevelForEditing: 0
+    description: 
+    notes: 
+    tags: 
+    versionIndex: 143
+    size:
+      width: 8
+      height: 9
+    suggestMoveType: 0
+    suggestMoveSetting: 0
+    numChips: 5
+    generationSettings:
+      chipSettings: []
+    isPowerupPlacementSuspended: 0
+    tutorialMatches: []
+    isPreventingGeneratorChipMatching: 0
+    useChanceToNotPreventChipMatching: 0
+    chanceToNotPreventChipMatching: 50
+    slots:
+    - position: {x: 0, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 6
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 6}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 6}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 6}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 6}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 6}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 6}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 6}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 6}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 8}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 8}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 8}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 8}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 8}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 8}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 8}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 8}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 0
+      chipType: 2
+      chipTag: 0
+      itemColor: 0
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    burriedElements:
+      elements: []
+    monsterElements:
+      elements: []
+    goals:
+      movesCount: 0
+      goals: []
+    extraFallingElements:
+      fallingElementsList: []
+    generatorSetups: []
+    generatorSlotSettings: []
+  - name: "ParticleTests"
+    nextLevelName: 
+    prevLevelName: 
+    lockLevelForEditing: 0
+    description: 
+    notes: 
+    tags: 
+    versionIndex: 136
+    size:
+      width: 9
+      height: 9
+    suggestMoveType: 0
+    suggestMoveSetting: 0
+    numChips: 5
+    generationSettings:
+      chipSettings: []
+    isPowerupPlacementSuspended: 0
+    tutorialMatches: []
+    isPreventingGeneratorChipMatching: 0
+    useChanceToNotPreventChipMatching: 0
+    chanceToNotPreventChipMatching: 50
+    slots:
+    - position: {x: 0, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 1
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: 2
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 1
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 1
+      colorSlateColor: {r: 0, g: 1, b: 0, a: 1}
+      colorSlateSpriteName: "LeavesGreen"
+    - position: {x: 7, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 8, y: 0}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 6
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 1
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: 1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: 0
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 1
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 1
+      iceLevel: 1
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 7
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 2
+      iceLevel: 1
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 7
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 2
+      iceLevel: 1
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 1
+      colorSlateColor: {r: 0, g: 1, b: 0, a: 1}
+      colorSlateSpriteName: "LeavesGreen"
+    - position: {x: 7, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 1
+      colorSlateColor: {r: 0, g: 1, b: 0, a: 1}
+      colorSlateSpriteName: "LeavesGreen"
+    - position: {x: 8, y: 1}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 1
+      colorSlateColor: {r: 0, g: 1, b: 0, a: 1}
+      colorSlateSpriteName: "LeavesGreen"
+    - position: {x: 0, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 1
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 1
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 1
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 1
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 1
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 0
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 8, y: 2}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 1
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 3
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 1
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 7
+      chipTag: 0
+      itemColor: 0
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 1
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 10
+      chipTag: 0
+      itemColor: 0
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 2
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 10
+      chipTag: 0
+      itemColor: 0
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 3
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 0
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 1
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 1
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 12
+      chipTag: 0
+      itemColor: 0
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 2
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 8, y: 3}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 10
+      chipTag: 0
+      itemColor: 1
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 3
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 1
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 8, y: 4}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 0
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 6
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 5
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 8, y: 5}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 6}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 6}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 6}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 7
+      chipTag: 0
+      itemColor: 0
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 1
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 6}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 2
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 6}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 6}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 6}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 4
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 6}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 1
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 8, y: 6}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 3
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 1
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 1
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 1
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 7
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 1
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 8, y: 7}
+      generatorSettings:
+        isGeneratorOn: 0
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 0, y: 8}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 1, y: 8}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 1
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 2, y: 8}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 4
+      chipTag: 0
+      itemColor: 3
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 3, y: 8}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 4, y: 8}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 3
+      chipTag: 0
+      itemColor: 100
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 5, y: 8}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 6, y: 8}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 7, y: 8}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 4
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: -1
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    - position: {x: 8, y: 8}
+      generatorSettings:
+        isGeneratorOn: 1
+        generateOnlyBunnies: 0
+        maxFallingElementsToGenerate: 0
+        chipTag: 0
+        slotGeneratorSetupIndex: -1
+      gravitySettings:
+        up: 0
+        down: 1
+        left: 0
+        right: 0
+        canJumpWithGravity: 0
+      wallSettings:
+        up: 0
+        down: 0
+        left: 0
+        right: 0
+      slotType: 1
+      chipType: 0
+      chipTag: 0
+      itemColor: 2
+      netLevel: 0
+      magicHatItemsCount: 0
+      boxLevel: 0
+      hasBubbles: 0
+      holeBlocker: 0
+      snowCoverLevel: 0
+      basketLevel: 0
+      iceLevel: 0
+      hasCarpet: 0
+      chainLevel: 0
+      itemLevel: 0
+      isPartOfConveyor: 0
+      portalEntranceIndex: 3
+      portalExitIndex: -1
+      conveyorDirection: {x: 0, y: 0}
+      isExitForFallingChip: 0
+      colorSlateLevel: 0
+      colorSlateColor: {r: 0, g: 0, b: 0, a: 0}
+      colorSlateSpriteName: 
+    burriedElements:
+      elements:
+      - position: {x: 6, y: 1}
+        size: {x: 2, y: 3}
+        orientation: 0
+    monsterElements:
+      elements: []
+    goals:
+      movesCount: 100
+      goals:
+      - goalType: 0
+        chipType: 0
+        itemColor: 6
+        collectCount: 100
+      - goalType: 0
+        chipType: 0
+        itemColor: 6
+        collectCount: 100
+    extraFallingElements:
+      fallingElementsList: []
+    generatorSetups: []
+    generatorSlotSettings: []

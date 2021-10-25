@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dfbc5d117830cca10b444910e3bb390, type: 3}
+  m_Name: "Config"
+  m_EditorClassIdentifier: 
+  gameName: 3
+  isDebug: 0
+  changeChipOnDevice: 0
+  isTestingSettingsScreen: 0
+  allowStockpiling: 0
+  overrideEnergyDurationOnlyIfBigger: 0
+  isDebugOnDevice: 0
+  useSinglePlayerSettings: 0
+  returnSameMatchServerAppNameWhenDebug: 0
+  showTotalEarningsOnWinningScreen: 0
+  useProfilePictureInMultiplayer: 0
+  useDeck: 0
+  useAddaptiveAIOnMultiplayer: 0
+  fakePlayerId: 0
+  playerId: 
+  useFakeFacebookPlayerId: 0
+  fakeFacebookPlayerId: "10158145076947211"
+  useFakeApplePlayerId: 0
+  fakeApplePlayerId: "001102.db521e0b6a674819919c5eaf727b128c.1231"
+  facebookAppId: "952707455169406"
+  facebookAppPlayerSuffix: "-m3"
+  facebookLoginPermissions: "public_profile"
+  facebookMockResponse: "{\"access_token\":\"EAANie31ws34BALam48xVa2A8FwqkXuYYTIEZAKGHsr5mHvHO2G00oRJN65rZCMQQqyvv62ofMzWfZBvVKu50vbxzb7IprieYjpNsZAaRLbQx9x03wRyYpU967E32ivsgDshfoktBZBaYRRWJ6ZBbVhaUH4D3tH6xh8FjBYq870S5BkKIwBmH0a19pFp1q3qQYo54RCrFRP9MpEudGhTcoCPvvYteb4q3nOtkV0YXlK3QZDZD\",\"opened\":true,\"permissions\":\"public_profile\",\"expiration_timestamp\":\"1595599312\",\"last_refresh\":\"1590415312\",\"callback_id\":\"2\",\"user_id\":\"10158145076947211\",\"graph_domain\":\"facebook\",\"declined_permissions\":\"\"}"
+  facebookDisplayName: "Home Design: Miss Robins"
+  facebookTestAccessToken: "CAAKs1b0mBXIBAL30WYTgiDUD4Ok9fbZBGPxz76FWxcHZBGs1XqkWOgm9uOKxjtvuk3byE9WSNtwwXJy5rY7C3k7qZBLSClZAPRHkyilRmc0nWgRirGMFZBRkmJhzKt0YdOFpZAJmrJvtXRD22YUYiw0rWPj4up8h61MRVLTjXTrzuIdLVZBoLrxF8fKYmybFskoLdtalTn0TX3fAqPxZByd5"
+  experimentsResourceName: 
+  cloudSyncTimeDelay: 1
+  cloudSyncTimeDelayWhenRequestFails: 120
+  maxSyncFrequency: 10
+  adsMaterial: {fileID: 0}
+  secureCurrency: 1
+  styleName: 
+  appNameOverrideForPrint: 
+  appName: 
+  inAppAdsName: 
+  matchServerUrl: 
+  matchServerApp: 
+  maxDisconnects: 2
+  rankingsServerUrl: 
+  rankingsApp: 
+  iosAppId: "1523054797"
+  proVersionPackage: 
+  usingProfileData: 0
+  activeConfig: 
+  usingNewPhoton: 0
+  activeConfigIOS: 
+  activeConfigWinRT: 
+  tournamentsOnlyAvailableInPro: 0
+  noWaitingInPro: 0
+  leaderboardId: 
+  isProVersion: 0
+  canUseRate: 0
+  gameCenterAvailable: 0
+  rateProvider: 
+  verifyPlayInApp: 1
+  testingInAppPurchases: 0
+  useGiftiz: 0
+  allDifficultiesInPro: 0
+  canUseFacebook: 0
+  menuSceneName: "Assets\x2fScenes\x2fMenuSceneDemo.unity"
+  useGuestForNonLoggedInUsers: 0
+  showUpdatedPrivacyPolicyNotice: 0
+  minVersionThatHasUpdatedPrivacyPolicy: 0
+  onlyShowNoticeIfUserLoggedIntoFacebook: 0
+  canChangeCuesMidGame: 0
+  updateSpinControlFromCueSpin: 0
+  cloudSyncType: 3
+  gameCenterCategory: 
+  mopubId: 
+  suggestionUrl: 
+  bugReportUrl: 
+  socialProvider: 0
+  inAppProvider: 0
+  interstitialAdId: 
+  amazonAppKey: 
+  noAdsOnPromotionDay: 0
+  initialCoins: 100
+  initialStars: 3
+  promotionCoins: 0
+  promotionStart: 
+  promotionEnd: 
+  promotionMessage: 
+  notificationLatestTime: 22
+  notificationEarliestTime: 9
+  masterMixer: {fileID: 24100000, guid: eb6c722dd8344842bb9f841c4709e2b6, type: 2}
+  minAudioVal: -80
+  maxAudioVal: 0
+  initialVolumeLevel: 50
+  initialPlayerVersion: 3
+  facebookError: "100"
+  multiplayerSkillPointsScale: 1
+  multiplayerSkillPointsOffset: 0
+  coinsCap: 100000000
+  tokensCap: 100000
+  ggDollarsCap: 100000000
+  eloCap: 9999
+  freeCoins: 50
+  coinsForLike: 50
+  hasLootBoxes: 0
+  freeCoinsCurrencyType: 2
+  overrideTimeForFreeCoins: 0
+  freeCoinsTimeHours: 0
+  GGOfficialUserEnabled_: 0
+  GGofficialUserName: "Giraffe Games"
+  GGOfficialImageURL: 

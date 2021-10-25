@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52abca3c6e8a5b83d9b7e7b8919224f, type: 3}
+  m_Name: "OffersDB"
+  m_EditorClassIdentifier: 
+  base64EncodedPublicKey: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiPy3AFjbE8etQ0Qcw+XZCeJaEkiN9u9DdKqCBmDLogh\x2fVh0gGz2vrdXxyB\x2fyp2bDgW1HtsPcR8HM5CzzQBlp00RT+kumqjX6GTickjRArYUgZShBDPrqqAiI6QiHrs+RfNs9gvcIR8nkYBYZc9hew7li7w6dr1ORHrzheTZxNDDqWzM3oazRZjQ4J2qCeJysKgrqzxJd+o285QLHDZpaiAClpMGsEZeVGXH4cmjcHnk51AM9QQ1Z+tHLm7HDw\x2fXfv0zO\x2f\x2f\x2fhIk5q0MxefGHZsnR1LkD1j6V1ZlhsBYdvSv1GlHzcTRMm7D9TsBfnmpnvTe2+OlXTc8BoTZwUNeLg5wIDAQAB"
+  products:
+  - editorName: "Starter"
+    offer:
+      name: "Starter Pack"
+      config:
+      - useBoosterType: 0
+        boosterType: 0
+        count: 0
+        usePrice: 1
+        price:
+          currency: 0
+          cost: 1500
+      - useBoosterType: 1
+        boosterType: 1
+        count: 1
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 1000
+      - useBoosterType: 1
+        boosterType: 0
+        count: 1
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 1000
+      - useBoosterType: 1
+        boosterType: 2
+        count: 1
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 1000
+    productID: "ggmatch3.starterpack"
+    productType: 0
+    mocupPrice: "$2.99 "
+    active: 1
+  - editorName: "Apprentice"
+    offer:
+      name: "Apprentice Pack"
+      config:
+      - useBoosterType: 0
+        boosterType: 0
+        count: 0
+        usePrice: 1
+        price:
+          currency: 0
+          cost: 5500
+      - useBoosterType: 1
+        boosterType: 1
+        count: 2
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+      - useBoosterType: 1
+        boosterType: 0
+        count: 2
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+      - useBoosterType: 1
+        boosterType: 2
+        count: 2
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+    productID: "ggmatch3.apprenticepack"
+    productType: 0
+    mocupPrice: "$7.99"
+    active: 1
+  - editorName: "Pro"
+    offer:
+      name: "Pro Pack"
+      config:
+      - useBoosterType: 0
+        boosterType: 0
+        count: 0
+        usePrice: 1
+        price:
+          currency: 0
+          cost: 12000
+      - useBoosterType: 1
+        boosterType: 1
+        count: 3
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+      - useBoosterType: 1
+        boosterType: 0
+        count: 3
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+      - useBoosterType: 1
+        boosterType: 2
+        count: 3
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+    productID: "ggmatch3.propack"
+    productType: 0
+    mocupPrice: "$17.99"
+    active: 1
+  - editorName: "Veteran"
+    offer:
+      name: "Veteran Pack"
+      config:
+      - useBoosterType: 0
+        boosterType: 0
+        count: 0
+        usePrice: 1
+        price:
+          currency: 0
+          cost: 25000
+      - useBoosterType: 1
+        boosterType: 1
+        count: 6
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+      - useBoosterType: 1
+        boosterType: 0
+        count: 6
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+      - useBoosterType: 0
+        boosterType: 2
+        count: 6
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+    productID: "ggmatch3.veteranpack"
+    productType: 0
+    mocupPrice: "$34.99"
+    active: 1
+  - editorName: "Master"
+    offer:
+      name: "Master Pack"
+      config:
+      - useBoosterType: 0
+        boosterType: 0
+        count: 0
+        usePrice: 1
+        price:
+          currency: 0
+          cost: 53000
+      - useBoosterType: 1
+        boosterType: 1
+        count: 7
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+      - useBoosterType: 1
+        boosterType: 0
+        count: 7
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+      - useBoosterType: 0
+        boosterType: 2
+        count: 7
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+    productID: "ggmatch3.masterpack"
+    productType: 0
+    mocupPrice: "$50.00"
+    active: 1
+  - editorName: "Champion"
+    offer:
+      name: "Champion Pack"
+      config:
+      - useBoosterType: 0
+        boosterType: 0
+        count: 0
+        usePrice: 1
+        price:
+          currency: 0
+          cost: 110000
+      - useBoosterType: 1
+        boosterType: 1
+        count: 13
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+      - useBoosterType: 1
+        boosterType: 0
+        count: 13
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+      - useBoosterType: 0
+        boosterType: 2
+        count: 13
+        usePrice: 0
+        price:
+          currency: 0
+          cost: 0
+    productID: "ggmatch3.championpack"
+    productType: 0
+    mocupPrice: "$109.99"
+    active: 1
+  - editorName: "Coins1K"
+    offer:
+      name: 
+      config:
+      - useBoosterType: 0
+        boosterType: 0
+        count: 0
+        usePrice: 1
+        price:
+          currency: 0
+          cost: 1000
+    productID: "ggmatch3.coins1"
+    productType: 0
+    mocupPrice: "$1.09"
+    active: 1
+  - editorName: "Coins5.5K"
+    offer:
+      name: 
+      config:
+      - useBoosterType: 0
+        boosterType: 0
+        count: 0
+        usePrice: 1
+        price:
+          currency: 0
+          cost: 5500
+    productID: "ggmatch3.coins2"
+    productType: 0
+    mocupPrice: "$5.49"
+    active: 1
+  - editorName: "Coins12K"
+    offer:
+      name: 
+      config:
+      - useBoosterType: 0
+        boosterType: 0
+        count: 0
+        usePrice: 1
+        price:
+          currency: 0
+          cost: 12000
+    productID: "ggmatch3.coins3"
+    productType: 0
+    mocupPrice: "$10.99"
+    active: 1
+  - editorName: "Coins25K"
+    offer:
+      name: 
+      config:
+      - useBoosterType: 0
+        boosterType: 0
+        count: 0
+        usePrice: 1
+        price:
+          currency: 0
+          cost: 25000
+    productID: "ggmatch3.coins4"
+    productType: 0
+    mocupPrice: "$21.99"
+    active: 1
+  - editorName: "Coins53K"
+    offer:
+      name: 
+      config:
+      - useBoosterType: 0
+        boosterType: 0
+        count: 0
+        usePrice: 1
+        price:
+          currency: 0
+          cost: 53000
+    productID: "ggmatch3.coins5"
+    productType: 0
+    mocupPrice: "$43.99"
+    active: 1
+  - editorName: "Coins110K"
+    offer:
+      name: 
+      config:
+      - useBoosterType: 0
+        boosterType: 0
+        count: 0
+        usePrice: 1
+        price:
+          currency: 0
+          cost: 110000
+    productID: "ggmatch3.coins6"
+    productType: 0
+    mocupPrice: "$79.99"
+    active: 1

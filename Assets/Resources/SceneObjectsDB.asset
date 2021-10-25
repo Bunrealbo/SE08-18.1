@@ -1,0 +1,1334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 088f4159936ff693eb8a66bbd0182780, type: 3}
+  m_Name: "SceneObjectsDB"
+  m_EditorClassIdentifier: 
+  scenes:
+  - name: "DecoratingScene"
+    assetsPath: "Assets\x2fArt\x2fRooms\x2f0020_Bedroom\x2fPSD\x2fexport\x2f2048"
+    objectInfos:
+    - objectName: "ceilingfan"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "ceiling_default"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "ceiling"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "lampstanding"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "pouf"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "pictures"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "ottoman"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "mirror"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "chair"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "cornertableprops"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "cornertable"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "sidelamp"
+      displayName: "Sidelamps"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "bed"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "bed_default"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "wardrobe"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "sidetables"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "plant"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "curtains"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "rug"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "windowsmall"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "windows"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "windows_default"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "wallfeature"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "walls"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "walls_default"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "floor"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+    - objectName: "floor_default"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "DecoratingScene"
+  - name: "Room3"
+    assetsPath: "Assets\x2fArt\x2fRooms\x2f0020_Bedroom\x2fPSD\x2fexport\x2f2048"
+    objectInfos:
+    - objectName: "ceilingfan"
+      displayName: "Ceiling Fan"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "ceiling_default"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "ceiling"
+      displayName: "Ceiling"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "lampstanding"
+      displayName: "Standing Lamp"
+      backwardDependencies: []
+      price:
+        currency: 2
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "pouf"
+      displayName: "Pouf"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "pictures"
+      displayName: "Pictures"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "ottoman"
+      displayName: "Ottoman"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "mirror"
+      displayName: "Mirror"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "chair"
+      displayName: "Chair"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "cornertableprops"
+      displayName: "Table Props"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "cornertable"
+      displayName: "Table"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "sidelamp"
+      displayName: "Lamp"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "bed_default"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "bed"
+      displayName: "Bed"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "wardrobe"
+      displayName: "Wardrobe"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "sidetables"
+      displayName: "Bedsits"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "plant"
+      displayName: "Plant"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "curtains"
+      displayName: "Curtains"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "rug"
+      displayName: "Rug"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "windowsmall"
+      displayName: "Window"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "windows_default"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "windows"
+      displayName: "Widnows"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "wallfeature"
+      displayName: "Wall Feature"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "walls_default"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "walls"
+      displayName: "Walls"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "floor_default"
+      displayName: 
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+    - objectName: "floor"
+      displayName: "Floor"
+      backwardDependencies: []
+      price:
+        currency: 0
+        cost: 0
+      autoSelect: 0
+      toSayAfterOpen: []
+      groupIndex: -1
+      isMarkersAbove: 0
+      thumbnailNamePrefix: 
+      iconSpriteName: 
+      animationType: 0
+      animationSettingsName: 
+      usedDashedLineForIconHandlePosition: 0
+      hideCharacterWhenSelectingVariations: 0
+      isVisualObjectOverriden: 0
+      objectOverride:
+        isSettingSaved: 0
+        visualObjectName: 
+        iconHandlePositionOffset: {x: 0, y: 0, z: 0}
+        iconHandlePositionScale: {x: 1, y: 1, z: 1}
+        iconHandleRotation: {x: 0, y: 0, z: 0}
+      sceneName: "Room1"
+  - name: "Room040"
+    assetsPath: 
+    objectInfos: []
+  maxMargins:
+    totalWidth: 2048
+    leftMargin: 0
+    rightMargin: 0
+    totalHeight: 1365
+    bottomMargin: 5
+    topMargin: 75
+  minMargins:
+    totalWidth: 2048
+    leftMargin: 0
+    rightMargin: 0
+    totalHeight: 1365
+    bottomMargin: 0
+    topMargin: 0

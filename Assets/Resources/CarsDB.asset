@@ -1,0 +1,421 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3fa1f444bddc47125d9d112a6b88f8d, type: 3}
+  m_Name: "CarsDB"
+  m_EditorClassIdentifier: 
+  carsList:
+  - name: "Test1"
+    sceneName: 
+    displayName: "Test1"
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 0}
+    giftDefinition:
+      gifts: []
+    editorAssetPath: "Assets\x2fCars\x2fScenes\x2fCarDemoSceneTest2.unity"
+  - name: "CartoonVan"
+    sceneName: 
+    displayName: "CartoonVan"
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 0}
+    giftDefinition:
+      gifts: []
+    editorAssetPath: "Assets\x2fCars\x2f0030_CartoonVan\x2fScenes\x2fVehicle_Car_CartoonVan_v001.unity"
+  - name: "HotRodToon"
+    sceneName: 
+    displayName: "HotRod Toon"
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 0}
+    giftDefinition:
+      gifts: []
+    editorAssetPath: "Assets\x2fCars\x2f0025_HotRod_Toon\x2fScenes\x2fVehicle_Car_HotRod_Toon_v001.unity"
+  - name: "PickupTruck"
+    sceneName: 
+    displayName: "Pickup Truck"
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 0}
+    giftDefinition:
+      gifts: []
+    editorAssetPath: "Assets\x2fCars\x2fScenes\x2fPickupTruck.unity"
+  - name: "HotRod"
+    sceneName: 
+    displayName: "HotRod"
+    description: "HotRod"
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 0}
+    giftDefinition:
+      gifts: []
+    editorAssetPath: "Assets\x2fCars\x2f0020_HotRod\x2fScenes\x2fVehicle_Car_HotRod_v001.unity"
+  - name: "CartoonVan"
+    sceneName: 
+    displayName: "CartoonVan"
+    description: "CartoonVan"
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 0}
+    giftDefinition:
+      gifts: []
+    editorAssetPath: "Assets\x2fCars\x2f0030_CartoonVan\x2fScenes\x2fVehicle_Car_CartoonVan_v001.unity"
+  - name: "Jeep"
+    sceneName: 
+    displayName: "Jeep"
+    description: "Jeep"
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 0}
+    giftDefinition:
+      gifts: []
+    editorAssetPath: "Assets\x2fCars\x2f0040_Jeep\x2fScenes\x2fVehicle_Car_Jeep_V001.unity"
+  - name: "Mini"
+    sceneName: 
+    displayName: "Mini"
+    description: "Mini"
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 0}
+    giftDefinition:
+      gifts: []
+    editorAssetPath: "Assets\x2fCars\x2f0050_Mini\x2fScenes\x2fVehicle_Car_Mini_v001.unity"
+  blendSettings:
+    blendDuration: 0.4
+    blendCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  explosionSettings:
+    minValueWhenSwitch: 0.1
+    distanceFromCenter: 1.5
+    durationToReturn: 0.5
+    unexplodeTimeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    sliderCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  carSettings:
+  - carName: "TestCar"
+    carCameraSettings:
+    - settingsName: "InCamera"
+      cameraDistance: -5
+      verticalAngleRange:
+        min: 0
+        max: 45
+      fov: 33
+      startVerticalAngle: 0
+      startHorizontalAngle: 0
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 0
+      rotationCenter: {x: 0, y: 0, z: 0}
+      changeAnglesAtStart: 0
+      originalTransform: {fileID: 0}
+    - settingsName: "Wheel_FL"
+      cameraDistance: -2
+      verticalAngleRange:
+        min: 10
+        max: 40
+      fov: 33
+      startVerticalAngle: 29.95
+      startHorizontalAngle: 14.71
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 1
+      rotationCenter: {x: -0.5337654, y: 0.3, z: 1.362305}
+      changeAnglesAtStart: 1
+      originalTransform: {fileID: 0}
+    - settingsName: "Wheel_FR"
+      cameraDistance: -1.72
+      verticalAngleRange:
+        min: 10
+        max: 40
+      fov: 33
+      startVerticalAngle: 22.21
+      startHorizontalAngle: -34.6
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 1
+      rotationCenter: {x: 0.5337654, y: 0.3, z: 1.362305}
+      changeAnglesAtStart: 1
+      originalTransform: {fileID: 0}
+    - settingsName: "Wheel_RL"
+      cameraDistance: -2
+      verticalAngleRange:
+        min: 10
+        max: 40
+      fov: 33
+      startVerticalAngle: 23
+      startHorizontalAngle: 17.15
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 1
+      rotationCenter: {x: -0.5337654, y: 0.3, z: -1.362305}
+      changeAnglesAtStart: 1
+      originalTransform: {fileID: 0}
+    - settingsName: "Wheel_RR"
+      cameraDistance: -2
+      verticalAngleRange:
+        min: 10
+        max: 40
+      fov: 33
+      startVerticalAngle: 27.2
+      startHorizontalAngle: -2.9
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 1
+      rotationCenter: {x: 0.5337654, y: 0.3, z: -1.362305}
+      changeAnglesAtStart: 1
+      originalTransform: {fileID: 0}
+  subpartInSettings:
+    inDuration: 0.5
+    fromScale: 0
+    toScale: 1
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.5949998
+        value: 1.073965
+        inSlope: 1.694858
+        outSlope: 1.694858
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.8549466
+        value: 0.8400797
+        inSlope: -1.176298
+        outSlope: -1.176298
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDuration: 0.5
+    moveCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.3586956
+        outSlope: 0.3586956
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.345738
+        value: 1.05
+        inSlope: 0.3822026
+        outSlope: 0.3822026
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.1509233
+      - serializedVersion: 3
+        time: 0.7920594
+        value: 0.9513177
+        inSlope: -0.6616116
+        outSlope: -0.6616116
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    openDuration: 1
+  subpartBlinkSettings:
+    inDuration: 0.5
+    fromScale: 1.2
+    toScale: 1
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.345738
+        value: 1.154732
+        inSlope: 1.175106
+        outSlope: 1.175106
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.7920594
+        value: 0.9513177
+        inSlope: -0.6616116
+        outSlope: -0.6616116
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDuration: 0
+    fromScaleChange: 0.99
+    changeOffset: 0.05
+    moveCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.3586956
+        outSlope: 0.3586956
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.345738
+        value: 1.05
+        inSlope: 0.3822026
+        outSlope: 0.3822026
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.1509233
+      - serializedVersion: 3
+        time: 0.7920594
+        value: 0.9513177
+        inSlope: -0.6616116
+        outSlope: -0.6616116
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
