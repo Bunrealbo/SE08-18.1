@@ -54,6 +54,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -5561,6 +5562,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      SOFAUPPERCUSHIONS_L3: 21300002
+      WINDOW_default: 21300016
+      FLOORMAT_L1: 21300014
+      SOFA_L3: 21300018
+      FLOORMAT_L2: 21300004
+      SOFA_L2: 21300010
+      SOFA_L1: 21300012
+      PLANTTREE_L3: 21300006
+      ROOF_default: 21300000
+      PLANTTREE_L1: 21300008
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

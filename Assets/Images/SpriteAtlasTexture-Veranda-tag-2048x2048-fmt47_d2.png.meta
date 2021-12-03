@@ -57,6 +57,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -6003,6 +6004,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      CEILINGFAN_L3: 21300002
+      CEILINGFAN_L1: 21300014
+      PLANTTREE_L2: 21300008
+      CURTAINS_L2: 21300004
+      FENCEPROPS_L3: 21300018
+      HANGINGBASKETS_L1: 21300012
+      HANGINGBASKETS_L3: 21300020
+      FENCE_BG_L1: 21300016
+      COFFEETABLE_L1: 21300000
+      POUF_L1: 21300010
+      COFFEETABLE_L2: 21300006
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

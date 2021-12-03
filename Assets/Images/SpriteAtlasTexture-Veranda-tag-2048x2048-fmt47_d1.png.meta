@@ -66,6 +66,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -4915,6 +4916,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      FENCE_BG_L3: 21300022
+      SOFA_L123_Shadow: 21300004
+      PETBED_L1: 21300010
+      COFFEETABLEPROPS_L1: 21300002
+      COFFEETABLE_L3: 21300026
+      ARMCHAIRPILLOWS_L2: 21300018
+      PETBED_L2: 21300014
+      SOFAPILLOWS_L1: 21300016
+      POUF_L2: 21300020
+      CURTAINS_L3: 21300012
+      POUF_L123_Shadow: 21300008
+      COFFEETABLE_L123_Shadow: 21300000
+      HANGINGBASKETS_L2: 21300024
+      SIDETABLERIGHT_L3: 21300006
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

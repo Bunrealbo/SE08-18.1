@@ -72,6 +72,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -5510,6 +5511,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      WINDOWBLINDS_L3_part3: 21300018
+      SINK_L3: 21300020
+      WALL_L1: 21300008
+      CABINETTOP_L1: 21300016
+      WINDOWBLINDS_L3_part1: 21300012
+      WINDOWBLINDS_L1_part3: 21300026
+      WINDOWRIGHT_L2: 21300002
+      WALL_L3: 21300024
+      WINDOWMIDDLE_default: 21300022
+      CABINETTOP_L2: 21300004
+      CABINETMIDDLEPROPS_L123_Shadow: 21300000
+      ISLANDSHELVES_L3: 21300010
+      WINDOWBLINDS_L2_part1: 21300014
+      WINDOWBLINDS_L2_part3: 21300006
+      CABINETTOP_L3: 21300030
+      ISLANDSHELVES_L1: 21300028
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

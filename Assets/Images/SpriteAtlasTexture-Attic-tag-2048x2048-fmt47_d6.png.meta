@@ -66,6 +66,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -5063,6 +5064,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      SOFACUSHIONS_L2: 21300000
+      SOFACUSHIONS_L1: 21300024
+      ARMCHAIR_L3: 21300012
+      UNITCENTER_L1: 21300002
+      UNITCENTER_L3: 21300022
+      UNITRIGHT_L2: 21300014
+      UNITRIGHT_L3: 21300020
+      PAINTING_L3: 21300016
+      SOFACUSHIONS_L3: 21300018
+      UNITRIGHT_L1: 21300006
+      PAINTING_L2: 21300008
+      UNITCENTER_L2: 21300026
+      PAINTING_L1: 21300010
+      ARMCHAIR_L2: 21300004
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

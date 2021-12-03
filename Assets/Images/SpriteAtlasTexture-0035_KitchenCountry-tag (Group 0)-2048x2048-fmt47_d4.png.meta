@@ -57,6 +57,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -4393,6 +4394,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      ISLAND_L1: 21300006
+      WINDOWMIDDLE_L1: 21300020
+      CABINETRIGHT_L123_shadow: 21300010
+      CEILING_L3: 21300002
+      CEILING_L2: 21300018
+      CEILING_L1: 21300008
+      ISLANDPROPS_L3: 21300000
+      CEILING_default: 21300012
+      ISLAND_L123_Shadow: 21300004
+      WINDOWMIDDLE_L3: 21300014
+      ISLAND_L2: 21300016
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -3756,6 +3757,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      WALL_L2: 21300016
+      BEDTABLE_FG_L2: 21300000
+      SEATCUSHION_L2: 21300006
+      SEAT_L1: 21300018
+      SEAT_L2: 21300004
+      SEATCUSHION_L1: 21300008
+      WINDOWLEFT_L3: 21300010
+      WALL_Default: 21300002
+      BEDHEADBOARD_L3: 21300020
+      FLOORMAT_L3: 21300012
+      SEATCUSHION_L3: 21300014
+      CHANDELIER_L3: 21300022
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

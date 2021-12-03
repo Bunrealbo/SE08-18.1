@@ -87,6 +87,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -4670,6 +4671,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      DRESSER_L1: 21300006
+      CHAIRCOMFY_FG_L1: 21300034
+      MAT_L2: 21300036
+      PLANTPOT_L1: 21300008
+      MAT_L1: 21300010
+      PICTURE_L2: 21300016
+      DRESSER_L123_shadow: 21300000
+      CURTAIN_L1: 21300004
+      LAMPSTAND_L3: 21300038
+      TABLECOFFEE_L1: 21300018
+      MAT_L3: 21300040
+      CLOCK_L123_Shadow: 21300012
+      PAINTING_L3: 21300022
+      TABLECOFFEE_L3_Shadow: 21300032
+      SOFACUSH_L3: 21300028
+      SHELFBOOKS_L3: 21300020
+      SHELFBOOKS_L2: 21300024
+      CHAIRARC_L1: 21300002
+      POUFFE_L123_Shadow: 21300026
+      SHELFBOOKS_L123_shadow: 21300014
+      CURTAIN_L3: 21300030
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

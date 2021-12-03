@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -385,6 +386,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Room-Select-AtticPicture: 21300002
+      Room-Select-VerandaPicture: 21300004
+      Room-Select-GirlsBedroomPicture: 21300000
+      Room-Select-Bedroom01Picture: 21300008
+      Room-Select-KitchenPicture: 21300006
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

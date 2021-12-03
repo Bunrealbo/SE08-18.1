@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -5207,6 +5208,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      WALL_L2: 21300010
+      HANGINGLIGHTS_L1: 21300000
+      WINDOWMIDDLE_L2: 21300006
+      WALL_default: 21300002
+      ISLAND_L3: 21300008
+      WINDOWRIGHT_L1: 21300004
+      WINDOWRIGHT_default: 21300012
+      WINDOWRIGHT_L3: 21300016
+      CABINETMIDDLE_L123_shadow: 21300014
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
