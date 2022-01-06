@@ -7,8 +7,9 @@ using Facebook.Unity;
 
 public class LoginToFBButton : MonoBehaviour
 {
-    public string fbUserId;
     public List<object> fbFriendList;
+    public Dictionary<string, string> FriendsDict;
+    public FacebookPlayer fbPlayer { get; set; }
 
     private void Awake()
     {
@@ -53,27 +54,23 @@ public class LoginToFBButton : MonoBehaviour
         FB.LogInWithReadPermissions(permissions, AuthCallBack);
     }
 
-    public void GetFriendsPlayingThisGame()
+    public void GetFriends()
     {
-        FB.API("/me/friends", HttpMethod.GET, result =>
+        FB.API("/me/friends", HttpMethod.GET, GetFriendsPlayingThisGame);
+    }
+
+    public void GetFriendsPlayingThisGame(IResult result)
+    {
+        IDictionary dict = Facebook.MiniJSON.Json.Deserialize(result.RawResult) as IDictionary;
+        fbFriendList = (List<object>)dict["data"];
+        FriendsDict = new Dictionary<string, string>();
+        for (int i = 0; i < fbFriendList.Count; ++i)
         {
-            IDictionary dict = Facebook.MiniJSON.Json.Deserialize(result.RawResult) as IDictionary;
-            fbFriendList = (List<object>)dict["data"];
-            // Test: print to Console
-            string friendIdList = "Friends ID: ";
-            for (int i = 0; i < fbFriendList.Count; ++i)
-            {
-                if (i != fbFriendList.Count - 1)
-                {
-                    friendIdList += ((Dictionary<string, object>)fbFriendList[i])["id"] + ", ";
-                }
-                else
-                {
-                    friendIdList += ((Dictionary<string, object>)fbFriendList[i])["id"];
-                }
-            }
-            Debug.Log(friendIdList);
-        });
+            string frId = ((Dictionary<string, object>)fbFriendList[i])["id"].ToString();
+            string frName = ((Dictionary<string, object>)fbFriendList[i])["name"].ToString();
+            FriendsDict.Add(frId, frName);
+        }
+        FB.API("/me?fields=id,name", HttpMethod.GET, SetFacebookPlayer);
     }
 
     void AuthCallBack(IResult result)
@@ -100,21 +97,22 @@ public class LoginToFBButton : MonoBehaviour
     {
         if (isLoggedIn)
         {
-            FB.API("/me?fields=id", HttpMethod.GET, DisplayUserId);
-            GetFriendsPlayingThisGame();
+            GetFriends();
         }
     }
 
-    void DisplayUserId(IResult result)
+    void SetFacebookPlayer(IResult result)
     {
         if (result.Error == null)
         {
             IDictionary dict = Facebook.MiniJSON.Json.Deserialize(result.RawResult) as IDictionary;
             try
             {
-                fbUserId= dict["id"].ToString();
+                string fbPlayerId= dict["id"].ToString();
+                string fbPlayerName = dict["name"].ToString();
+                this.fbPlayer = new FacebookPlayer(fbPlayerId, fbPlayerName, FriendsDict);
                 // Test: print to Console
-                Debug.Log("User ID: " + fbUserId);
+                Debug.Log(this.fbPlayer.ToString());
             }
             catch (Exception ex)
             {
@@ -125,7 +123,11 @@ public class LoginToFBButton : MonoBehaviour
         {
             Debug.Log(result.Error);
         }
-        
+    }
+
+    FacebookPlayer GetFacebookPlayer()
+    {
+        return this.fbPlayer;
     }
 
     //public void ButtonCallback_OnButtonPress()
