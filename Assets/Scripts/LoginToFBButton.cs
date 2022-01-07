@@ -7,9 +7,10 @@ using Facebook.Unity;
 
 public class LoginToFBButton : MonoBehaviour
 {
+    public static LoginToFBButton ltfb;
     public List<object> fbFriendList;
     public Dictionary<string, string> FriendsDict;
-    public FacebookPlayer fbPlayer { get; set; }
+    public FacebookPlayer FbPlayer { get; set; }
 
     private void Awake()
     {
@@ -43,6 +44,7 @@ public class LoginToFBButton : MonoBehaviour
         {
             FB.ActivateApp();
         }
+        ltfb = this;
     }
 
     public void FBLogin()
@@ -110,9 +112,9 @@ public class LoginToFBButton : MonoBehaviour
             {
                 string fbPlayerId= dict["id"].ToString();
                 string fbPlayerName = dict["name"].ToString();
-                this.fbPlayer = new FacebookPlayer(fbPlayerId, fbPlayerName, FriendsDict);
+                this.FbPlayer = new FacebookPlayer(fbPlayerId, fbPlayerName, FriendsDict);
                 // Test: print to Console
-                Debug.Log(this.fbPlayer.ToString());
+                Debug.Log(this.FbPlayer.ToString());
             }
             catch (Exception ex)
             {
@@ -125,9 +127,10 @@ public class LoginToFBButton : MonoBehaviour
         }
     }
 
-    FacebookPlayer GetFacebookPlayer()
+    public FacebookPlayer GetFacebookPlayer()
     {
-        return this.fbPlayer;
+        // Get player by: LoginToFBButton.ltfb.GetFacebookPlayer()
+        return this.FbPlayer;
     }
 
     //public void ButtonCallback_OnButtonPress()
