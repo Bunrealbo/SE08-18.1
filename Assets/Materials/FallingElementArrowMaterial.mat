@@ -26,7 +26,8 @@ Material:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 148ac3ce60104c6d8a247d57e3104152, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0.4024588}
+        m_Offset: {x: 0, y: 0.5561093}
+    m_Ints: []
     m_Floats:
     - AnimatedZoomUV_AnimatedZoomUV_Intensity_1: 0.5
     - AnimatedZoomUV_AnimatedZoomUV_PosX_1: 0.5
