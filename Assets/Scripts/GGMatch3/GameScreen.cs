@@ -133,7 +133,12 @@ namespace GGMatch3
 			this.LoadGameScene();
 		}
 
-		public void DestroyCreatedGameObjects()
+        public int GetGameLevel()
+        {
+            return this.initParams.levelIndex;
+        }
+
+        public void DestroyCreatedGameObjects()
 		{
 			if (!this.isStarterLoaded)
 			{

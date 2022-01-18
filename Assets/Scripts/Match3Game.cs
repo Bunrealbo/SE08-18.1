@@ -2739,6 +2739,10 @@ public class Match3Game : MonoBehaviour
             gameCompleteParams.game = this;
             UnityEngine.Debug.Log("MOVES " + this.board.userMovesCount);
             this.gameScreen.Match3GameCallback_OnGameWon(gameCompleteParams);
+
+            // Test
+            UnityEngine.Debug.Log("From test: " + this.board.userScore + " " + this.gameScreen.GetGameLevel());
+
             return;
         }
         GameCompleteParams gameCompleteParams2 = new GameCompleteParams();
