@@ -2743,9 +2743,9 @@ public class Match3Game : MonoBehaviour
             // Test
             UnityEngine.Debug.Log("From test: " + this.board.userScore + " " + this.gameScreen.GetGameLevel());
 
-             if (LoginToFBButton.ltfb.IsLogged)
+            if (LoginToFBButton.ltfb.IsLogged)
             {
-            ScoreController.PostScoreAsync(LoginToFBButton.ltfb.GetFacebookPlayer().Id, this.board.userScore, this.gameScreen.GetGameLevel());
+                ScoreController.PostScoreAsync(LoginToFBButton.ltfb.GetFacebookPlayer().Id, this.board.userScore, this.gameScreen.GetGameLevel());
             }
 
             
