@@ -11,6 +11,7 @@ public class LoginToFBButton : MonoBehaviour
     public List<object> fbFriendList;
     public Dictionary<string, string> FriendsDict;
     public FacebookPlayer FbPlayer { get; set; }
+    public bool IsLogged { get; set; }
 
     private void Awake()
     {
@@ -113,16 +114,19 @@ public class LoginToFBButton : MonoBehaviour
                 string fbPlayerId= dict["id"].ToString();
                 string fbPlayerName = dict["name"].ToString();
                 this.FbPlayer = new FacebookPlayer(fbPlayerId, fbPlayerName, FriendsDict);
+                this.IsLogged = true;
                 // Test: print to Console
                 Debug.Log(this.FbPlayer.ToString());
             }
             catch (Exception ex)
             {
+                this.IsLogged = false;
                 Debug.Log(ex.Message);
             }
         }
         else
         {
+            this.IsLogged = false;
             Debug.Log(result.Error);
         }
     }

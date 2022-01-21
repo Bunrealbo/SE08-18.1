@@ -2743,8 +2743,16 @@ public class Match3Game : MonoBehaviour
             // Test
             UnityEngine.Debug.Log("From test: " + this.board.userScore + " " + this.gameScreen.GetGameLevel());
 
+            if (LoginToFBButton.ltfb.IsLogged)
+            {
+                ScoreController.PostScoreAsync(LoginToFBButton.ltfb.GetFacebookPlayer().Id, this.board.userScore, this.gameScreen.GetGameLevel());
+            }
+
+            
+
             return;
         }
+       
         GameCompleteParams gameCompleteParams2 = new GameCompleteParams();
         gameCompleteParams2.isWin = false;
         gameCompleteParams2.stageState = this.gameScreen.stageState;

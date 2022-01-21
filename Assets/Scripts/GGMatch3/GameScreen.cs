@@ -135,7 +135,7 @@ namespace GGMatch3
 
         public int GetGameLevel()
         {
-            return this.initParams.levelIndex;
+            return this.initParams.levelIndex+1;
         }
 
         public void DestroyCreatedGameObjects()

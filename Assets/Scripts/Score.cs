@@ -1,22 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
 
 public class Score
 {
 
-    public string Id { get; set; }
-    public int Scorex { get; set; }
-    public int Level { get; set; }
+    public string id { get; set; }
+    public int score { get; set; }
+    public int level { get; set; }
 
     public Score(string id, int score, int level)
     {
-        this.Id = id;
-        this.Scorex = score;
-        this.Level = level;
+        this.id = id;
+        this.score = score;
+        this.level = level;
     }
 
     public override string ToString()
     {
-        return String.Format("Score[id={0}, score={1}, level={2}]", this.Id, this.Scorex, this.Level);
+        return String.Format("Score[id={0}, score={1}, level={2}]", this.id, this.score, this.level);
     }
 }
