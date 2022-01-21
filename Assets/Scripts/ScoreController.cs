@@ -4,6 +4,8 @@ using System.Net;
 using System.IO;
 using UnityEngine;
 using Newtonsoft.Json;
+using System.Net.Http;
+using System.Text;
 
 // Project -> Manage NuGet Packages... -> Browse -> Enter "newtonsoft.json" -> Install
 
@@ -29,7 +31,7 @@ public class ScoreController
             }
             return scoreList;
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             Debug.Log(ex.Message);
             return null;
@@ -76,7 +78,7 @@ public class ScoreController
             }
             return scoreList;
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             Debug.Log(ex.Message);
             return null;
@@ -89,14 +91,14 @@ public class ScoreController
         {
             List<Score> scoreList = GetScoreListByLevel(level);
             scoreList.Sort(
-                delegate(Score score1, Score score2)
+                delegate (Score score1, Score score2)
                 {
-                    return score1.Scorex.CompareTo(score2.Scorex);
+                    return score1.score.CompareTo(score2.score);
                 }
             );
             return scoreList;
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             Debug.Log(ex.Message);
             return null;
@@ -104,11 +106,25 @@ public class ScoreController
     }
 
     // To-do
-    public static void PostScore(string id, int score, int level)
+    public static async System.Threading.Tasks.Task PostScoreAsync(string id, int score, int level)
     {
-        // id: LoginToFBButton.ltfb.GetFacebookPlayer().Id
-        // level: GameScreen => GetGameLevel()
-        // score: Match3Game.board.userScore when GameEnd(true), but it's not real score,
-        // the score still increases after the game is end.
+        try
+        {
+            Score test = new Score(id, score, level);
+            string uri = String.Format(baseURI + "/score/");
+            var jsonData = JsonConvert.SerializeObject(test);
+            var httpContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            HttpClient httpClient = new HttpClient();
+            var httpResponse = await httpClient.PostAsync(uri, httpContent);
+            if (httpResponse != null)
+            {
+                var responseContent = await httpResponse.Content.ReadAsStringAsync();
+                Debug.Log(responseContent);
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.Log(ex.Message);
+        }
     }
 }

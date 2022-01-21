@@ -11,6 +11,7 @@ public class LoginToFBButton : MonoBehaviour
     public List<object> fbFriendList;
     public Dictionary<string, string> FriendsDict;
     public FacebookPlayer FbPlayer { get; set; }
+    public bool IsLogged { get; internal set; }
 
     private void Awake()
     {
